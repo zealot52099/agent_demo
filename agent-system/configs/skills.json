@@ -1,0 +1,68 @@
+{
+    "domains": [
+        {
+            "name": "导航控制域",
+            "description": "导航相关：搜索目的地、充电站、路线偏好、地图模式、途经点、路况、位置查询、退出导航等",
+            "skills": [
+                {"name": "NavigationSearchPoi", "description": "搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配"},
+                {"name": "NavigationSearchCharging", "description": "搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选"},
+                {"name": "NavigationSetRoutePrefer", "description": "设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）"},
+                {"name": "NavigationCancelRoutePrefer", "description": "取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑"},
+                {"name": "NavigationOpenMode", "description": "开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）"},
+                {"name": "NavigationCloseMode", "description": "关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）"},
+                {"name": "NavigationSearchCustomName", "description": "搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航"},
+                {"name": "NavigationSetMapMode", "description": "设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小"},
+                {"name": "NavigationSetCustomName", "description": "设置导航常用地点（如家、公司）的地址信息，完成预设地点录入"},
+                {"name": "NavigationSetDestination", "description": "添加或修改导航途经点，支持多途经点顺序调整"},
+                {"name": "NavigationSearchOnwayPoi", "description": "搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）"},
+                {"name": "NavigationInfoLocation", "description": "查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）"},
+                {"name": "NavigationQueryInfo", "description": "查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）"},
+                {"name": "NavigationChargingUnlock", "description": "解锁导航推荐充电站的地锁"},
+                {"name": "NavigationTrafficInfo", "description": "查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）"},
+                {"name": "NavigationUpdateRoute", "description": "更新当前导航路线（如因实时路况变化、临时管制重新规划路线）"},
+                {"name": "NavigationSearchMultiPoi", "description": "同时搜索多个兴趣点（POI），支持多地点对比筛选"},
+                {"name": "NavigationRouteChoose", "description": "根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线"},
+                {"name": "NavigationWatchLocation", "description": "查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）"},
+                {"name": "GeneralExit", "description": "退出当前导航，停止路线引导、语音播报等所有导航相关功能"},
+                {"name": "NavigationExit", "description": "退出当前导航，停止路线引导、语音播报等所有导航相关功能"},
+                {"name": "NavigationPoiSelect", "description": "在多个匹配的兴趣点（POI）结果中确认选择目标地点"},
+                {"name": "NavigationRouteSelect", "description": "在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能"},
+                {"name": "NavigationDeleteWaypoints", "description": "删除已添加的导航途经点，支持单个或批量删除"},
+                {"name": "NavigationServiceInfo", "description": "查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）"},
+                {"name": "NavigationPoiInfo", "description": "无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）"},
+                {"name": "NavigationLightInfo", "description": "查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）"},
+                {"name": "NavigationGetInfo", "description": "导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）"},
+                {"name": "NavigationPoiPicks", "description": "导航Agent核心API，在多个匹配的兴趣点结果中确认选择目标地点"},
+                {"name": "NavigationTripPlanner", "description": "导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序"},
+                {"name": "PhoneNavigation", "description": "手机-车辆导航同步"}
+            ]
+        },
+        {
+            "name": "车窗控制域",
+            "description": "车窗、天窗、遮阳帘、天幕的开关和调节",
+            "skills": [
+                {"name": "WindowsOpen", "description": "打开车窗、天窗、遮阳帘、天幕，或开启车窗通风模式"},
+                {"name": "WindowsClose", "description": "关闭车窗、天窗、遮阳帘、天幕"},
+                {"name": "WindowsSet", "description": "调节车窗开合程度（如开到50%）、调节遮阳帘或天幕的开度或亮度"}
+            ]
+        },
+        {
+            "name": "声音控制域",
+            "description": "车内外声音、音量、声浪、音效的开关和调节",
+            "skills": [
+                {"name": "VoiceOpen", "description": "开启车外低速模拟音、迎宾音效、模拟声浪、媒体音效、头枕音响模式、多媒体车外播放、系统提示音、音量随速调节"},
+                {"name": "VoiceClose", "description": "关闭车外低速模拟音、迎宾音效、模拟声浪功能、静音模式及已开启的声音相关功能"},
+                {"name": "VoiceSet", "description": "调节模拟声浪音量、媒体音量、蓝牙耳机音量、语音播报音量、导航播报音量、通话音量"}
+            ]
+        },
+        {
+            "name": "座椅控制域",
+            "description": "座椅加热、通风、按摩、位置调节等功能的开关和设置",
+            "skills": [
+                {"name": "SeatOpen", "description": "开启座椅加热、通风、按摩、迎宾、零重力、方便进出、一键复位、靠背折叠、腰部舒缓功能；开启座椅制冷、座椅制热"},
+                {"name": "SeatClose", "description": "关闭座椅加热、通风、按摩、迎宾、零重力、方便进出、一键复位、靠背折叠、腰部舒缓功能；关闭座椅制冷、座椅制热"},
+                {"name": "SeatSet", "description": "调节座椅位置（前后或高低）、靠背角度、坐垫位置、腿托位置、腰托位置、头枕位置、按摩力度、律动强度、座椅习惯（记忆）；调节座椅制冷/制热档位、座椅通风风量"}
+            ]
+        }
+    ]
+}

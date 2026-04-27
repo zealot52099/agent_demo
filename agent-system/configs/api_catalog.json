@@ -1,0 +1,40 @@
+{
+    "apis": [
+        {
+            "name": "getWeather",
+            "description": "Fetches the current weather information for a specified location.",
+            "parameters": {
+                "location": "string",
+                "unit": "string (optional, default: 'metric')"
+            },
+            "usage": "getWeather(location='New York', unit='metric')"
+        },
+        {
+            "name": "sendMessage",
+            "description": "Sends a message to a specified user or group.",
+            "parameters": {
+                "recipient": "string",
+                "message": "string"
+            },
+            "usage": "sendMessage(recipient='user123', message='Hello!')"
+        },
+        {
+            "name": "fetchNews",
+            "description": "Retrieves the latest news articles based on a specified category.",
+            "parameters": {
+                "category": "string"
+            },
+            "usage": "fetchNews(category='technology')"
+        },
+        {
+            "name": "bookAppointment",
+            "description": "Books an appointment for a specified service.",
+            "parameters": {
+                "service": "string",
+                "date": "string (format: YYYY-MM-DD)",
+                "time": "string (format: HH:MM)"
+            },
+            "usage": "bookAppointment(service='doctor', date='2023-10-01', time='10:00')"
+        }
+    ]
+}

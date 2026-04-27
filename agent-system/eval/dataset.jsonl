@@ -1,0 +1,8 @@
+{"query": "打开座椅通风", "domain": "座椅控制域", "intent": "SeatOpen"}
+{"query": "导航到高铁站", "domain": "导航控制域", "intent": "NavigationSearchPoi"}
+{"query": "把车窗开到一半", "domain": "车窗控制域", "intent": "WindowsSet"}
+{"query": "音量调小一点", "domain": "声音控制域", "intent": "VoiceSet"}
+{"query": "找附近的快充", "domain": "导航控制域", "intent": "NavigationSearchCharging"}
+{"query": "退出导航", "domain": "导航控制域", "intent": "NavigationExit"}
+{"query": "关闭座椅按摩", "domain": "座椅控制域", "intent": "SeatClose"}
+{"query": "风力调到二十三度", "domain": null, "intent": "NoiseAction"}
