@@ -122,6 +122,7 @@ class Agent:
 
         try:
             raw_output = run_inference_with_fallback(prompt, history)
+            logger.info(f"Stage 1 - Raw output: {raw_output}")
         except Exception as e:
             logger.error(f"Stage 1 inference failed: {e}")
             raw_output = ""

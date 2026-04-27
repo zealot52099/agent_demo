@@ -81,12 +81,14 @@ def _real_inference(
     messages = []
     if history:
         for h in history:
+            # logger.info(f"Adding history to inference payload: {h}")
             if isinstance(h, dict):
-                messages.append({"role": "user", "content": h.get("query", "")})
-                messages.append({"role": "assistant", "content": h.get("response", "")})
-
-    messages.append({"role": "user", "content": content})
-
+                if h.get("query", "") and h.get("response", ""):
+                    messages.append({"role": "user", "content": h.get("query", "")})
+                    messages.append({"role": "assistant", "content": h.get("response", "")})
+    if content:
+        messages.append({"role": "user", "content": content})
+    logger.info(f'messages for inference: {messages}')
     payload = {
         "temperature": settings.inference_temperature,
         "seed": settings.inference_seed,
@@ -164,12 +166,12 @@ def run_inference_with_fallback(
     if settings.mock_mode:
         return _mock_inference(prompt, history)
 
-    try:
-        result = _real_inference(prompt, history, audio_url)
-        if result:
-            return result
-        logger.warning("Real inference failed, falling back to mock")
-        return _mock_inference(prompt, history)
-    except Exception as e:
-        logger.error(f"Real inference error: {e}, falling back to mock")
-        return _mock_inference(prompt, history)
+    # try:
+    result = _real_inference(prompt, history, audio_url)
+    if result:
+        return result
+    logger.warning("Real inference failed, falling back to mock")
+    return _mock_inference(prompt, history)
+    # except Exception as e:
+    #     logger.error(f"Real inference error: {e}, falling back to mock")
+    #     return _mock_inference(prompt, history)

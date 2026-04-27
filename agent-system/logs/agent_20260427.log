@@ -160,3 +160,1433 @@
 [2026-04-27 14:20:32.822] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
 [2026-04-27 14:20:32.822] [INFO] [agent_system] Stage 2 - Raw output: 导航到加油站|NavigationSearchPoi
 [2026-04-27 14:20:32.822] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 导航到加油站
+[2026-04-27 15:00:20.891] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 15:00:20.936] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 15:00:20.936] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 15:00:26.915] [INFO] [agent_system] Handling query: 打开车车窗...
+[2026-04-27 15:00:26.915] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 15:00:26.916] [INFO] [agent_system] Stage 2 - Raw output: 打开车车窗|NavigationSearchPoi
+[2026-04-27 15:00:26.916] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 打开车车窗
+[2026-04-27 15:00:26.916] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 15:00:26.916] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 15:01:25.963] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 15:01:25.967] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 15:01:25.967] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 15:01:30.518] [INFO] [agent_system] Handling query: 关闭车窗...
+[2026-04-27 15:01:30.518] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 15:01:30.519] [INFO] [agent_system] Stage 2 - Raw output: 关闭车窗|NavigationSearchPoi
+[2026-04-27 15:01:30.519] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 关闭车窗
+[2026-04-27 15:01:30.519] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 15:01:30.519] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 19:49:31.023] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 19:49:31.047] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 19:49:31.047] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 19:49:37.206] [INFO] [agent_system] Handling query: 打开车窗...
+[2026-04-27 19:49:37.268] [INFO] [agent_system] Inference success, response length: 5
+[2026-04-27 19:49:37.268] [INFO] [agent_system] Stage 1 - Domain: 车窗控制域
+[2026-04-27 19:49:37.317] [INFO] [agent_system] Inference success, response length: 16
+[2026-04-27 19:49:37.317] [INFO] [agent_system] Stage 2 - Raw output: 打开车窗|WindowsOpen
+[2026-04-27 19:49:37.317] [INFO] [agent_system] Parsed intent: WindowsOpen, ASR: 打开车窗
+[2026-04-27 19:49:37.317] [INFO] [agent_system] Tool execution: success
+[2026-04-27 19:49:47.085] [INFO] [agent_system] Handling query: 打开座椅按摩...
+[2026-04-27 19:49:47.132] [INFO] [agent_system] Inference success, response length: 5
+[2026-04-27 19:49:47.132] [INFO] [agent_system] Stage 1 - Domain: 座椅控制域
+[2026-04-27 19:49:47.180] [INFO] [agent_system] Inference success, response length: 15
+[2026-04-27 19:49:47.181] [INFO] [agent_system] Stage 2 - Raw output: 打开座椅按摩|SeatOpen
+[2026-04-27 19:49:47.181] [INFO] [agent_system] Parsed intent: SeatOpen, ASR: 打开座椅按摩
+[2026-04-27 19:49:47.181] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:00:58.599] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:00:58.601] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:00:58.601] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:01:02.685] [INFO] [agent_system] Handling query: adad...
+[2026-04-27 20:01:02.728] [INFO] [agent_system] Inference success, response length: 5
+[2026-04-27 20:01:02.728] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 20:01:02.771] [INFO] [agent_system] Inference success, response length: 16
+[2026-04-27 20:01:02.771] [INFO] [agent_system] Stage 2 - Raw output: adad|NoiseAction
+[2026-04-27 20:01:02.772] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: adad
+[2026-04-27 20:01:02.772] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 20:01:02.772] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:01:11.669] [INFO] [agent_system] Handling query: 关闭摄像头...
+[2026-04-27 20:01:11.715] [INFO] [agent_system] Inference success, response length: 7
+[2026-04-27 20:01:11.715] [INFO] [agent_system] Stage 1 - Domain: 摄像头与泊车域
+[2026-04-27 20:01:11.787] [INFO] [agent_system] Inference success, response length: 30
+[2026-04-27 20:01:11.787] [INFO] [agent_system] Stage 2 - Raw output: 用户指令：关闭摄像头  
+ASR结果|CameraClose
+[2026-04-27 20:01:11.787] [INFO] [agent_system] Parsed intent: CameraClose, ASR: 用户指令：关闭摄像头  
+ASR结果
+[2026-04-27 20:01:11.787] [WARNING] [agent_system] No tool registered for intent: CameraClose
+[2026-04-27 20:01:11.787] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:01:26.480] [INFO] [agent_system] Handling query: 打开自动泊车...
+[2026-04-27 20:01:26.533] [INFO] [agent_system] Inference success, response length: 7
+[2026-04-27 20:01:26.533] [INFO] [agent_system] Stage 1 - Domain: 摄像头与泊车域
+[2026-04-27 20:01:26.590] [INFO] [agent_system] Inference success, response length: 18
+[2026-04-27 20:01:26.590] [INFO] [agent_system] Stage 2 - Raw output: 打开自动泊车|CarParkOpen
+[2026-04-27 20:01:26.590] [INFO] [agent_system] Parsed intent: CarParkOpen, ASR: 打开自动泊车
+[2026-04-27 20:01:26.590] [WARNING] [agent_system] No tool registered for intent: CarParkOpen
+[2026-04-27 20:01:26.590] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:02:04.402] [INFO] [agent_system] Handling query: 停帮帮我听停到左后方的停车位...
+[2026-04-27 20:02:04.457] [INFO] [agent_system] Inference success, response length: 7
+[2026-04-27 20:02:04.458] [INFO] [agent_system] Stage 1 - Domain: 摄像头与泊车域
+[2026-04-27 20:02:04.512] [INFO] [agent_system] Inference success, response length: 23
+[2026-04-27 20:02:04.512] [INFO] [agent_system] Stage 2 - Raw output: CarParkOpen|CarParkOpen
+[2026-04-27 20:02:04.512] [INFO] [agent_system] Parsed intent: CarParkOpen, ASR: CarParkOpen
+[2026-04-27 20:02:04.512] [WARNING] [agent_system] No tool registered for intent: CarParkOpen
+[2026-04-27 20:02:04.512] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:07:51.563] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:07:51.564] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:07:51.564] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:07:58.872] [INFO] [agent_system] Handling query: 打开座椅按摩...
+[2026-04-27 20:07:58.922] [INFO] [agent_system] Inference success, response length: 5
+[2026-04-27 20:07:58.922] [INFO] [agent_system] Stage 1 - Domain: 座椅控制域
+[2026-04-27 20:07:58.969] [INFO] [agent_system] Inference success, response length: 15
+[2026-04-27 20:07:58.969] [INFO] [agent_system] Stage 2 - Raw output: 打开座椅按摩|SeatOpen
+[2026-04-27 20:07:58.970] [INFO] [agent_system] Parsed intent: SeatOpen, ASR: 打开座椅按摩
+[2026-04-27 20:07:58.970] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:09:11.825] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:09:11.826] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:09:11.826] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:09:16.956] [INFO] [agent_system] Handling query: 打开座椅按摩...
+[2026-04-27 20:09:16.995] [INFO] [agent_system] Inference success, response length: 5
+[2026-04-27 20:09:16.995] [INFO] [agent_system] Stage 1 - Domain: 座椅控制域
+[2026-04-27 20:09:17.039] [INFO] [agent_system] Inference success, response length: 15
+[2026-04-27 20:09:17.039] [INFO] [agent_system] Stage 2 - Raw output: 打开座椅按摩|SeatOpen
+[2026-04-27 20:09:17.039] [INFO] [agent_system] Parsed intent: SeatOpen, ASR: 打开座椅按摩
+[2026-04-27 20:09:17.039] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:09:59.065] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:09:59.066] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:09:59.066] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:10:05.891] [INFO] [agent_system] Handling query: 关闭座椅按摩...
+[2026-04-27 20:10:05.933] [INFO] [agent_system] Inference success, response length: 5
+[2026-04-27 20:10:05.934] [INFO] [agent_system] Stage 1 - Raw output: 座椅控制域
+[2026-04-27 20:10:05.934] [INFO] [agent_system] Stage 1 - Domain: 座椅控制域
+[2026-04-27 20:10:05.979] [INFO] [agent_system] Inference success, response length: 16
+[2026-04-27 20:10:05.979] [INFO] [agent_system] Stage 2 - Raw output: 关闭座椅按摩|SeatClose
+[2026-04-27 20:10:05.980] [INFO] [agent_system] Parsed intent: SeatClose, ASR: 关闭座椅按摩
+[2026-04-27 20:10:05.980] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:13:47.619] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:13:47.620] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:13:47.620] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:13:51.426] [INFO] [agent_system] Handling query: 关闭座椅按摩...
+[2026-04-27 20:13:51.481] [INFO] [agent_system] Inference success, response length: 7
+[2026-04-27 20:13:51.481] [INFO] [agent_system] Stage 1 - Raw output: <座椅控制域>
+[2026-04-27 20:13:51.481] [INFO] [agent_system] Stage 1 - Domain: 座椅控制域
+[2026-04-27 20:13:51.524] [INFO] [agent_system] Inference success, response length: 16
+[2026-04-27 20:13:51.524] [INFO] [agent_system] Stage 2 - Raw output: 关闭座椅按摩|SeatClose
+[2026-04-27 20:13:51.525] [INFO] [agent_system] Parsed intent: SeatClose, ASR: 关闭座椅按摩
+[2026-04-27 20:13:51.525] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:20:10.031] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:20:10.032] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:20:10.032] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:20:17.131] [INFO] [agent_system] Handling query: 关闭座椅按摩...
+[2026-04-27 20:20:17.337] [INFO] [agent_system] Inference success, response length: 73
+[2026-04-27 20:20:17.337] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：用户指令为“关闭座椅按摩”，其中“座椅按摩”属于座椅控制功能，因此该指令属于座椅控制域。
+
+<domain>座椅控制域</domain>
+[2026-04-27 20:20:17.337] [INFO] [agent_system] Stage 1 - Domain: 座椅控制域
+[2026-04-27 20:20:17.337] [ERROR] [agent_system] 处理查询时出错: name 'logger' is not defined
+[2026-04-27 20:22:19.470] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:22:19.471] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:22:19.471] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:22:26.092] [INFO] [agent_system] Handling query: 打开座椅按摩...
+[2026-04-27 20:22:26.310] [INFO] [agent_system] Inference success, response length: 86
+[2026-04-27 20:22:26.310] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：用户指令为“打开座椅按摩”，其中“座椅”属于座椅控制域的范畴，“按摩”是座椅的一项功能，因此该指令属于座椅控制域。
+
+<domain>座椅控制域</domain>
+[2026-04-27 20:22:26.310] [INFO] [agent_system] Stage 1 - Domain: 座椅控制域
+[2026-04-27 20:22:26.310] [ERROR] [agent_system] Error: name 'logger' is not defined
+[2026-04-27 20:25:30.580] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:25:30.581] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:25:30.582] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:25:40.094] [INFO] [agent_system] Handling query: 打开宠物模式...
+[2026-04-27 20:25:40.447] [INFO] [agent_system] Inference success, response length: 144
+[2026-04-27 20:25:40.447] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：用户指令“打开宠物模式”属于车辆功能中的特定模式设置，通常用于在车主离开车辆时为宠物提供舒适环境，涉及空调、通风、座椅等多方面控制，属于车辆综合功能的一部分。该功能不属于导航、空调、座椅等单一控制域，而是车辆综合控制功能之一。
+
+<domain>车辆控制综合域</domain>
+[2026-04-27 20:25:40.447] [INFO] [agent_system] Stage 1 - Domain: 车辆控制综合域
+[2026-04-27 20:25:40.447] [INFO] [agent_system] Domain '车辆控制综合域' skills for stage 2 prompt:
+[2026-04-27 20:26:10.479] [WARNING] [agent_system] Inference request failed (attempt 1): HTTPConnectionPool(host='localhost', port=8901): Read timed out. (read timeout=30.0)
+[2026-04-27 20:26:12.494] [INFO] [agent_system] Inference success, response length: 459
+[2026-04-27 20:26:12.494] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+1. 用户指令为“打开宠物模式”，需要判断该指令属于哪个意图类别。
+2. 分析“宠物模式”的功能属性：宠物模式通常用于在车辆中为宠物提供舒适环境，例如调节空调温度、开启通风、播放音乐等，同时可能涉及座椅调节、氛围灯等功能，但其核心是开启一种特定的车辆使用场景模式。
+3. 查看可用意图分类：
+   - ControlOpen：开启各类模式、功能、设备等，包括驾驶模式、动力模式、车外灯、泊车等功能；
+   - ControlClose：关闭相应功能；
+   - ControlSet：调节参数；
+4. “打开宠物模式”属于开启一种车辆功能模式，因此应归类至 ControlOpen。
+5. 该模式不属于驾驶、动力、悬架、车灯、充电、空调等具体功能，而是整车功能中的一种场景模式，因此属于 ControlOpen 下的“开启车辆场景模式”范畴。
+6. 综合判断，用户意图是开启一种车辆功能模式，因此匹配意图 ControlOpen。
+
+<answer>打开宠物模式|ControlOpen</answer>
+[2026-04-27 20:26:12.494] [INFO] [agent_system] Parsed intent: ControlOpen, ASR: 思考过程：
+
+1. 用户指令为“打开宠物模式”，需要判断该指令属于哪个意图类别。
+2. 分析“宠物模式”的功能属性：宠物模式通常用于在车辆中为宠物提供舒适环境，例如调节空调温度、开启通风、播放音乐等，同时可能涉及座椅调节、氛围灯等功能，但其核心是开启一种特定的车辆使用场景模式。
+3. 查看可用意图分类：
+   - ControlOpen：开启各类模式、功能、设备等，包括驾驶模式、动力模式、车外灯、泊车等功能；
+   - ControlClose：关闭相应功能；
+   - ControlSet：调节参数；
+4. “打开宠物模式”属于开启一种车辆功能模式，因此应归类至 ControlOpen。
+5. 该模式不属于驾驶、动力、悬架、车灯、充电、空调等具体功能，而是整车功能中的一种场景模式，因此属于 ControlOpen 下的“开启车辆场景模式”范畴。
+6. 综合判断，用户意图是开启一种车辆功能模式，因此匹配意图 ControlOpen。
+
+打开宠物模式
+[2026-04-27 20:26:12.494] [WARNING] [agent_system] No tool registered for intent: ControlOpen
+[2026-04-27 20:26:12.494] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:26:12.494] [INFO] [agent_system] Handling query: ...
+[2026-04-27 20:26:12.558] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:26:12.559] [INFO] [agent_system] Stage 1 - Raw output: <domain>导航控制域</domain>
+[2026-04-27 20:26:12.559] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:26:12.559] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:26:13.386] [INFO] [agent_system] Inference success, response length: 290
+[2026-04-27 20:26:13.386] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+用户指令为“请从以上意图中选择最匹配的一个”，这是一个明确的指令，要求从给定的意图列表中选择最匹配的意图。然而，该指令本身并未包含任何导航控制相关的具体操作意图，例如搜索地点、设置路线偏好、查询信息等。
+
+此外，该指令更像是一个系统级的指令，用于触发意图选择流程，而不是实际执行某个导航功能。因此，它不属于任何具体的导航控制意图范畴。
+
+在所有可用意图中，没有一个意图是用于“选择最匹配意图”这一元操作本身。因此，该指令无法归类到任何具体意图中。
+
+最终判断：该指令不属于导航控制域内的任何意图。
+
+<answer>ASR结果|GeneralExit</answer>
+[2026-04-27 20:26:13.386] [INFO] [agent_system] Parsed intent: GeneralExit, ASR: 思考过程：
+用户指令为“请从以上意图中选择最匹配的一个”，这是一个明确的指令，要求从给定的意图列表中选择最匹配的意图。然而，该指令本身并未包含任何导航控制相关的具体操作意图，例如搜索地点、设置路线偏好、查询信息等。
+
+此外，该指令更像是一个系统级的指令，用于触发意图选择流程，而不是实际执行某个导航功能。因此，它不属于任何具体的导航控制意图范畴。
+
+在所有可用意图中，没有一个意图是用于“选择最匹配意图”这一元操作本身。因此，该指令无法归类到任何具体意图中。
+
+最终判断：该指令不属于导航控制域内的任何意图。
+
+ASR结果
+[2026-04-27 20:26:13.386] [WARNING] [agent_system] No tool registered for intent: GeneralExit
+[2026-04-27 20:26:13.386] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:26:13.386] [INFO] [agent_system] Handling query: ...
+[2026-04-27 20:26:13.449] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:26:13.449] [INFO] [agent_system] Stage 1 - Raw output: <domain>导航控制域</domain>
+[2026-04-27 20:26:13.449] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:26:13.449] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:26:14.433] [INFO] [agent_system] Inference success, response length: 773
+[2026-04-27 20:26:14.433] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+用户指令为“请从以上意图中选择最匹配的一个”，这是一个明确的指令，要求从给定的意图列表中选择最匹配的意图。然而，该指令本身并未包含任何具体的导航操作意图，例如搜索地点、设置偏好、查询信息等，而是对意图列表的操作请求。
+
+此外，该指令没有上下文信息，无法判断其意图指向哪个具体功能。因此，该指令属于一种通用控制类操作，意图是退出或终止当前流程，而不是执行导航功能。
+
+在所有可用意图中，“GeneralExit” 和 “NavigationExit” 釠 both represent exiting navigation-related functions. However, “GeneralExit” is broader and applicable across domains, while “NavigationExit” specifically targets navigation.
+
+Since the user is asking to select an intent from the navigation control domain, and the instruction is asking to exit or terminate the current navigation context, the most appropriate choice is NavigationExit.
+
+Final decision: This is a request to exit navigation functionality, which is explicitly covered by NavigationExit.
+
+<answer>ASR结果|NavigationExit</answer>
+[2026-04-27 20:26:14.433] [INFO] [agent_system] Parsed intent: NavigationExit, ASR: 思考过程：
+用户指令为“请从以上意图中选择最匹配的一个”，这是一个明确的指令，要求从给定的意图列表中选择最匹配的意图。然而，该指令本身并未包含任何具体的导航操作意图，例如搜索地点、设置偏好、查询信息等，而是对意图列表的操作请求。
+
+此外，该指令没有上下文信息，无法判断其意图指向哪个具体功能。因此，该指令属于一种通用控制类操作，意图是退出或终止当前流程，而不是执行导航功能。
+
+在所有可用意图中，“GeneralExit” 和 “NavigationExit” 釠 both represent exiting navigation-related functions. However, “GeneralExit” is broader and applicable across domains, while “NavigationExit” specifically targets navigation.
+
+Since the user is asking to select an intent from the navigation control domain, and the instruction is asking to exit or terminate the current navigation context, the most appropriate choice is NavigationExit.
+
+Final decision: This is a request to exit navigation functionality, which is explicitly covered by NavigationExit.
+
+ASR结果
+[2026-04-27 20:26:14.433] [INFO] [agent_system] Exiting navigation
+[2026-04-27 20:26:14.433] [INFO] [agent_system] Executed tool NavigationExit, result: {'action': 'exit_navigation', 'status': 'executed'}
+[2026-04-27 20:26:14.433] [INFO] [agent_system] Tool execution: success
+[2026-04-27 20:26:14.433] [INFO] [agent_system] Handling query: ...
+[2026-04-27 20:26:14.497] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:26:14.497] [INFO] [agent_system] Stage 1 - Raw output: <domain>导航控制域</domain>
+[2026-04-27 20:26:14.497] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:26:14.497] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:26:44.528] [WARNING] [agent_system] Inference request failed (attempt 1): HTTPConnectionPool(host='localhost', port=8901): Read timed out. (read timeout=30.0)
+[2026-04-27 20:27:09.976] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:27:09.977] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:27:09.977] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:27:15.814] [INFO] [agent_system] Handling query: 打开宠物模式...
+[2026-04-27 20:27:16.162] [INFO] [agent_system] Inference success, response length: 144
+[2026-04-27 20:27:16.162] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：用户指令“打开宠物模式”属于车辆功能中的特定模式设置，通常用于在车主离开车辆时为宠物提供舒适环境，涉及空调、通风、座椅等多方面控制，属于车辆综合功能的一部分。该功能不属于导航、空调、座椅等单一控制域，而是车辆综合控制功能之一。
+
+<domain>车辆控制综合域</domain>
+[2026-04-27 20:27:16.162] [INFO] [agent_system] Stage 1 - Domain: 车辆控制综合域
+[2026-04-27 20:27:16.162] [INFO] [agent_system] Domain '车辆控制综合域' skills for stage 2 prompt:
+[2026-04-27 20:27:17.170] [INFO] [agent_system] Inference success, response length: 459
+[2026-04-27 20:27:17.170] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+1. 用户指令为“打开宠物模式”，需要判断该指令属于哪个意图类别。
+2. 分析“宠物模式”的功能属性：宠物模式通常用于在车辆中为宠物提供舒适环境，例如调节空调温度、开启通风、播放音乐等，同时可能涉及座椅调节、氛围灯等功能，但其核心是开启一种特定的车辆使用场景模式。
+3. 查看可用意图分类：
+   - ControlOpen：开启各类模式、功能、设备等，包括驾驶模式、动力模式、车外灯、泊车等功能；
+   - ControlClose：关闭相应功能；
+   - ControlSet：调节参数；
+4. “打开宠物模式”属于开启一种车辆功能模式，因此应归类至 ControlOpen。
+5. 该模式不属于驾驶、动力、悬架、车灯、充电、空调等具体功能，而是整车功能中的一种场景模式，因此属于 ControlOpen 下的“开启车辆场景模式”范畴。
+6. 综合判断，用户意图是开启一种车辆功能模式，因此匹配意图 ControlOpen。
+
+<answer>打开宠物模式|ControlOpen</answer>
+[2026-04-27 20:27:17.171] [INFO] [agent_system] Parsed intent: ControlOpen, ASR: 思考过程：
+
+1. 用户指令为“打开宠物模式”，需要判断该指令属于哪个意图类别。
+2. 分析“宠物模式”的功能属性：宠物模式通常用于在车辆中为宠物提供舒适环境，例如调节空调温度、开启通风、播放音乐等，同时可能涉及座椅调节、氛围灯等功能，但其核心是开启一种特定的车辆使用场景模式。
+3. 查看可用意图分类：
+   - ControlOpen：开启各类模式、功能、设备等，包括驾驶模式、动力模式、车外灯、泊车等功能；
+   - ControlClose：关闭相应功能；
+   - ControlSet：调节参数；
+4. “打开宠物模式”属于开启一种车辆功能模式，因此应归类至 ControlOpen。
+5. 该模式不属于驾驶、动力、悬架、车灯、充电、空调等具体功能，而是整车功能中的一种场景模式，因此属于 ControlOpen 下的“开启车辆场景模式”范畴。
+6. 综合判断，用户意图是开启一种车辆功能模式，因此匹配意图 ControlOpen。
+
+打开宠物模式
+[2026-04-27 20:27:17.171] [WARNING] [agent_system] No tool registered for intent: ControlOpen
+[2026-04-27 20:27:17.171] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:27:58.434] [INFO] [agent_system] Handling query: 打开暴走模式...
+[2026-04-27 20:27:58.485] [INFO] [agent_system] Inference success, response length: 9
+[2026-04-27 20:27:58.485] [INFO] [agent_system] Stage 1 - Raw output: <车辆控制综合域>
+[2026-04-27 20:27:58.485] [INFO] [agent_system] Stage 1 - Domain: 车辆控制综合域
+[2026-04-27 20:27:58.486] [INFO] [agent_system] Domain '车辆控制综合域' skills for stage 2 prompt:
+[2026-04-27 20:27:59.662] [INFO] [agent_system] Inference success, response length: 474
+[2026-04-27 20:27:59.662] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+1. 用户指令为“打开暴走模式”，需要判断该指令属于哪个意图类别。
+2. 分析“暴走模式”含义：在车辆控制语境中，“暴走模式”通常指一种高性能驾驶模式，强调动力输出强劲、响应迅速，偏向运动风格，可能与驾驶模式或动力模式相关。
+3. 查看可用意图列表：
+   - ControlOpen 包含开启驾驶模式（标准、运动、节能、舒适、脱困、车手、弹射、极客、雪地、湿地、涉水、防晕车）；
+     ✅ “暴走模式”属于驾驶模式的一种，且常见于车辆高性能驾驶场景，如“车手”、“弹射”、“极客”等，因此“暴狗模式”应归类于驾驶模式开启。
+   - ControlClose 和 ControlSet 不符合“打开”动作，排除。
+4. 结合 ASR 结果“暴走模式”与 ControlOpen 中“驾驶模式”子项匹配，确认意图应为 ControlOpen。
+5. 最终判定：用户意图是开启一种特定驾驶模式，即“暴走模式”，属于 ControlOpen 下的驾驶模式开启。
+
+<answer>打开暴走模式|ControlOpen</answer>
+[2026-04-27 20:27:59.662] [INFO] [agent_system] Parsed intent: ControlOpen, ASR: 思考过程：
+
+1. 用户指令为“打开暴走模式”，需要判断该指令属于哪个意图类别。
+2. 分析“暴走模式”含义：在车辆控制语境中，“暴走模式”通常指一种高性能驾驶模式，强调动力输出强劲、响应迅速，偏向运动风格，可能与驾驶模式或动力模式相关。
+3. 查看可用意图列表：
+   - ControlOpen 包含开启驾驶模式（标准、运动、节能、舒适、脱困、车手、弹射、极客、雪地、湿地、涉水、防晕车）；
+     ✅ “暴走模式”属于驾驶模式的一种，且常见于车辆高性能驾驶场景，如“车手”、“弹射”、“极客”等，因此“暴狗模式”应归类于驾驶模式开启。
+   - ControlClose 和 ControlSet 不符合“打开”动作，排除。
+4. 结合 ASR 结果“暴走模式”与 ControlOpen 中“驾驶模式”子项匹配，确认意图应为 ControlOpen。
+5. 最终判定：用户意图是开启一种特定驾驶模式，即“暴走模式”，属于 ControlOpen 下的驾驶模式开启。
+
+打开暴走模式
+[2026-04-27 20:27:59.662] [WARNING] [agent_system] No tool registered for intent: ControlOpen
+[2026-04-27 20:27:59.662] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:29:40.597] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:29:40.598] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:29:40.598] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:29:51.563] [INFO] [agent_system] Handling query: 帮我停到前面的车位...
+[2026-04-27 20:29:51.866] [INFO] [agent_system] Inference success, response length: 112
+[2026-04-27 20:29:51.866] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：用户指令“帮我停到前面的车位”涉及车辆自动停入车位的操作，属于泊车相关的功能。根据功能域定义，该操作应归类为与摄像头和泊车相关的功能，因此属于【摄像头与泊车域】。
+
+<domain>摄像头与泊车域</domain>
+[2026-04-27 20:29:51.866] [INFO] [agent_system] Stage 1 - Domain: 摄像头与泊车域
+[2026-04-27 20:29:51.866] [INFO] [agent_system] Domain '摄像头与泊车域' skills for stage 2 prompt:
+[2026-04-27 20:29:51.866] [INFO] [agent_system]   - CameraOpen: 开启指定类型摄像头（如全景摄像头、倒车摄像头）或触发摄像头特定功能（如拍照、录像）
+[2026-04-27 20:29:51.866] [INFO] [agent_system]   - CameraClose: 关闭指定类型摄像头或停止摄像头当前功能
+[2026-04-27 20:29:51.866] [INFO] [agent_system]   - CameraSet: 调节摄像头的参数设置（如角度、分辨率）；调节系统关联的摄像头参数（如历史哨兵模式灵敏度）
+[2026-04-27 20:29:51.866] [INFO] [agent_system]   - CarParkOpen: 发起自动泊车或者暂停自动泊车
+[2026-04-27 20:29:51.866] [INFO] [agent_system]   - CarParkClose: 结束泊车
+[2026-04-27 20:29:52.486] [INFO] [agent_system] Inference success, response length: 298
+[2026-04-27 20:29:52.486] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 用户指令为“帮我停到前面的车位”，表明用户希望车辆自动完成泊车操作。
+2. 分析可用意图：
+   - CameraOpen/CameraClose/CameraSet：涉及摄像头功能，与泊车无关。
+   - CarParkOpen：发起自动泊车或暂停自动泊车，符合用户希望车辆自动泊入车位的需求。
+   - CarParkClose：结束泊车，与用户意图相反。
+3. 用户未提及暂停或结束泊车，而是请求启动泊车功能，因此 CarParkOpen 更合适。
+4. 综上，最匹配意图是 CarParkOpen。
+
+<answer>ASR结果|CarParkOpen</answer>
+[2026-04-27 20:29:52.486] [INFO] [agent_system] Parsed intent: CarParkOpen, ASR: 思考过程：
+1. 用户指令为“帮我停到前面的车位”，表明用户希望车辆自动完成泊车操作。
+2. 分析可用意图：
+   - CameraOpen/CameraClose/CameraSet：涉及摄像头功能，与泊车无关。
+   - CarParkOpen：发起自动泊车或暂停自动泊车，符合用户希望车辆自动泊入车位的需求。
+   - CarParkClose：结束泊车，与用户意图相反。
+3. 用户未提及暂停或结束泊车，而是请求启动泊车功能，因此 CarParkOpen 更合适。
+4. 综上，最匹配意图是 CarParkOpen。
+
+ASR结果
+[2026-04-27 20:29:52.486] [WARNING] [agent_system] No tool registered for intent: CarParkOpen
+[2026-04-27 20:29:52.486] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:31:20.222] [INFO] [agent_system] Handling query: 空调调到100度...
+[2026-04-27 20:31:20.448] [INFO] [agent_system] Inference success, response length: 80
+[2026-04-27 20:31:20.448] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：用户指令“空调调到100度”涉及空调温度的调节，属于空调控制功能。因此，该指令应归类到【空调控制域】。
+
+<domain>空调控制域</domain>
+[2026-04-27 20:31:20.448] [INFO] [agent_system] Stage 1 - Domain: 空调控制域
+[2026-04-27 20:31:20.448] [INFO] [agent_system] Domain '空调控制域' skills for stage 2 prompt:
+[2026-04-27 20:31:20.449] [INFO] [agent_system]   - AcOpen: 打开空调（可指定位置：主驾、副驾、左后、右后、前排、后排、第三排、全部）；打开自动空调；打开制冷、制热、自然风、内循环、外循环、AQS（智能内外循环）；打开前除雾、后除雾、前后除雾；打开空气净化、智能除味；打开香氛、指定气味香氛；打开吹风模式（吹头、吹脚、吹窗、吹头吹脚、吹脚吹窗）；打开风向模式（单向风、镜像风、对人吹、避人吹、自由风、森林风、智能风、左右扫风）；打开指定风向（向左、向右、向中间、向上、向下）；打开空调智能模式（极速降温、极速升温、节能模式、智能除味、智能副驾、空调自干燥、清洁模式、守护模式）；打开空调舒适模式、标准模式、运动模式；打开后视镜加热
+[2026-04-27 20:31:20.449] [INFO] [agent_system]   - AcClose: 关闭空调（可指定位置：主驾、副驾、左后、右后、前排、后排、第三排、全部）；关闭自动空调；关闭制冷、制热、自然风、内循环、外循环、AQS（智能内外循环）；关闭前除雾、后除雾、前后除雾；关闭空气净化、智能除味；关闭香氛、指定气味香氛；关闭吹风模式（吹头、吹脚、吹窗、吹头吹脚、吹脚吹窗）；关闭风向模式（单向风、镜像风、对人吹、避人吹、自由风、森林风、智能风、左右扫风）；关闭指定风向（向左、向右、向中间、向上、向下）；关闭空调智能模式（极速降温、极速升温、节能模式、智能除味、智能副驾、空调自干燥、清洁模式、守护模式）；关闭空调舒适模式、标准模式、运动模式；关闭后视镜加热
+[2026-04-27 20:31:20.449] [INFO] [agent_system]   - AcSet: 调节温度（调大、调小、调到某数值、最大、最小），支持主驾、副驾、前排、后排等位置独立调节；调节风量（调大、调小、调到某档位、最大、最小）；调节香氛浓度（调大、调小、调到某浓度、最大、最小）；切换香氛气味（切换到下一个、上一个、指定气味）；设置空调最大或最小（全车统一）
+[2026-04-27 20:31:21.257] [INFO] [agent_system] Inference success, response length: 293
+[2026-04-27 20:31:21.257] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+1. 用户指令为“空调调到100度”，关键词是“空调”和“调到100度”。
+2. 分析“调到100度”：表示设置空调温度为100摄氏度，属于温度调节操作。
+3. 查看可用意图中与温度调节相关的意图：
+   - AcSet：支持调节温度，包括“调到某数值”，符合“调到100度”的语义。
+   - AcOpen/AcClose 不涉及调节数值，排除。
+4. 用户未指定位置，因此默认作用于全车或主驾，但AcSet支持位置参数，因此无需额外判断。
+5. 综上，该指令最匹配意图是 AcSet，用于设置温度为指定数值。
+
+<answer>ASR结果|AcSet</answer>
+[2026-04-27 20:31:21.257] [INFO] [agent_system] Parsed intent: AcSet, ASR: 思考过程：
+
+1. 用户指令为“空调调到100度”，关键词是“空调”和“调到100度”。
+2. 分析“调到100度”：表示设置空调温度为100摄氏度，属于温度调节操作。
+3. 查看可用意图中与温度调节相关的意图：
+   - AcSet：支持调节温度，包括“调到某数值”，符合“调到100度”的语义。
+   - AcOpen/AcClose 不涉及调节数值，排除。
+4. 用户未指定位置，因此默认作用于全车或主驾，但AcSet支持位置参数，因此无需额外判断。
+5. 综上，该指令最匹配意图是 AcSet，用于设置温度为指定数值。
+
+ASR结果
+[2026-04-27 20:31:21.257] [WARNING] [agent_system] No tool registered for intent: AcSet
+[2026-04-27 20:31:21.257] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:34:41.725] [INFO] [agent_system] Handling query: 导航到嘉峪关长城...
+[2026-04-27 20:34:41.806] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:34:41.806] [INFO] [agent_system] Stage 1 - Raw output: <domain>导航控制域</domain>
+[2026-04-27 20:34:41.806] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:34:41.807] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 20:34:41.807] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:34:41.808] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 20:34:41.808] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 20:34:42.469] [INFO] [agent_system] Inference success, response length: 315
+[2026-04-27 20:34:42.469] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+用户输入为“导航到嘉峪关长城”，这是一个明确的导航目的地请求。根据指令内容，用户希望将“嘉峪关长城”作为目的地进行导航。
+
+分析可用意图列表：
+- NavigationSearchPoi：支持按名称、地址、分类等多维度匹配兴趣点（POI），适用于用户输入具体地点名称如“嘉峪关长城”进行搜索并发起导航。
+- 其他意图如 Charging、RoutePrefer、MapMode 等均不匹配“导航到某地”的语义。
+
+因此，最合适的意图是 NavigationSearchPoi，因为它专门用于搜索兴趣点作为导航目的地，符合用户意图。
+
+<answer>ASR结果|NavigationSearchPoi</answer>
+[2026-04-27 20:34:42.470] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 思考过程：
+用户输入为“导航到嘉峪关长城”，这是一个明确的导航目的地请求。根据指令内容，用户希望将“嘉峪关长城”作为目的地进行导航。
+
+分析可用意图列表：
+- NavigationSearchPoi：支持按名称、地址、分类等多维度匹配兴趣点（POI），适用于用户输入具体地点名称如“嘉峪关长城”进行搜索并发起导航。
+- 其他意图如 Charging、RoutePrefer、MapMode 等均不匹配“导航到某地”的语义。
+
+因此，最合适的意图是 NavigationSearchPoi，因为它专门用于搜索兴趣点作为导航目的地，符合用户意图。
+
+ASR结果
+[2026-04-27 20:34:42.470] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 20:34:42.470] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:39:15.336] [INFO] [agent_system] Handling query: 选择第一个...
+[2026-04-27 20:39:15.396] [INFO] [agent_system] Inference success, response length: 7
+[2026-04-27 20:39:15.396] [INFO] [agent_system] Stage 1 - Raw output: <噪声动作域>
+[2026-04-27 20:39:15.396] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 20:39:15.396] [INFO] [agent_system] Domain '噪声动作域' skills for stage 2 prompt:
+[2026-04-27 20:39:15.396] [INFO] [agent_system]   - NoiseAction: 不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合
+[2026-04-27 20:39:16.346] [INFO] [agent_system] Inference success, response length: 409
+[2026-04-27 20:39:16.347] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 分析用户指令“选择第一个”：
+   - 该指令是一个简短的、缺乏上下文的表达。
+   - 它没有明确的对象或场景，例如“选择第一个菜单项”、“选择第一个播放列表”等。
+   - 在智能座舱系统中，此类指令无法独立触发任何具体功能，因为缺少必要的实体或上下文信息。
+   - 根据【噪声动作域】的定义，该指令属于“语义表达异常导致理解困难”或“单实体+完整query的低频组合”，因为它既不包含明确的功能意图，也不具备合理的搭配逻辑。
+
+2. 匹配意图分类：
+   - NoiseAction：适用于无法匹配任何功能点、语义模糊或低频组合的指令。
+   - 其他意图如“导航”、“播放音乐”等均不符合此指令的实际含义。
+
+3. 结论：
+   - 用户指令“选择第一个”属于无法理解其意图的噪声动作，应归类为NoiseAction。
+
+<answer>ASR结果|NoiseAction</answer>
+[2026-04-27 20:39:16.347] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: 思考过程：
+1. 分析用户指令“选择第一个”：
+   - 该指令是一个简短的、缺乏上下文的表达。
+   - 它没有明确的对象或场景，例如“选择第一个菜单项”、“选择第一个播放列表”等。
+   - 在智能座舱系统中，此类指令无法独立触发任何具体功能，因为缺少必要的实体或上下文信息。
+   - 根据【噪声动作域】的定义，该指令属于“语义表达异常导致理解困难”或“单实体+完整query的低频组合”，因为它既不包含明确的功能意图，也不具备合理的搭配逻辑。
+
+2. 匹配意图分类：
+   - NoiseAction：适用于无法匹配任何功能点、语义模糊或低频组合的指令。
+   - 其他意图如“导航”、“播放音乐”等均不符合此指令的实际含义。
+
+3. 结论：
+   - 用户指令“选择第一个”属于无法理解其意图的噪声动作，应归类为NoiseAction。
+
+ASR结果
+[2026-04-27 20:39:16.347] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 20:39:16.347] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:41:24.961] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:41:24.962] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:41:24.962] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:41:31.708] [INFO] [agent_system] Handling query: 导航去天安�...
+[2026-04-27 20:41:31.779] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:41:31.779] [INFO] [agent_system] Stage 1 - Raw output: <domain>导航控制域</domain>
+[2026-04-27 20:41:31.779] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:41:31.779] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 20:41:31.779] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 20:41:32.547] [INFO] [agent_system] Inference success, response length: 323
+[2026-04-27 20:41:32.547] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+用户输入为“导航去天安”，其中“导航去”表明用户意图是发起一次导航操作，“天安”可能是“天安门”的简称或误识别，结合常见导航场景，用户大概率想导航至“天安门”这一兴趣点（POI）。因此，该指令属于通过兴趣点名称发起导航的行为。
+
+在可用意图中，NavigationSearchPoi 是用于搜索兴趣点（POI）并发起导航的操作，支持按名称、地址、分类等方式匹配，符合用户意图。
+
+此外，ASR 结果可能存在识别误差，但“天安”明显指向“天安门”这类著名地标，因此无需怀疑意图本质。
+
+综上，最匹配意图是 NavigationSearchPoi。
+
+<answer>ASR结果|NavigationSearchPoi</answer>
+[2026-04-27 20:41:32.547] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 思考过程：
+
+用户输入为“导航去天安”，其中“导航去”表明用户意图是发起一次导航操作，“天安”可能是“天安门”的简称或误识别，结合常见导航场景，用户大概率想导航至“天安门”这一兴趣点（POI）。因此，该指令属于通过兴趣点名称发起导航的行为。
+
+在可用意图中，NavigationSearchPoi 是用于搜索兴趣点（POI）并发起导航的操作，支持按名称、地址、分类等方式匹配，符合用户意图。
+
+此外，ASR 结果可能存在识别误差，但“天安”明显指向“天安门”这类著名地标，因此无需怀疑意图本质。
+
+综上，最匹配意图是 NavigationSearchPoi。
+
+ASR结果
+[2026-04-27 20:41:32.547] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 20:41:32.547] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:41:43.446] [INFO] [agent_system] Handling query: 徐�选择第一个...
+[2026-04-27 20:41:43.513] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:41:43.513] [INFO] [agent_system] Stage 1 - Raw output: <domain>噪声动作域</domain>
+[2026-04-27 20:41:43.513] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 20:41:43.514] [INFO] [agent_system] Domain '噪声动作域' skills for stage 2 prompt:
+[2026-04-27 20:41:43.514] [INFO] [agent_system]   - NoiseAction: 不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合
+[2026-04-27 20:41:44.332] [INFO] [agent_system] Inference success, response length: 346
+[2026-04-27 20:41:44.332] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 分析用户指令：“徐�选择第一个”。
+2. 观察到“徐�”部分存在字符异常，可能是ASR（自动语音识别）错误导致的乱码或非正常字符，例如“徐”后面紧跟了一个无法识别的字符（如“�”），这表明该部分可能为语音识别错误。
+3. “选择第一个”是一个动作意图，但缺少上下文支持，例如“选择第一个什么？”、“选择第一个菜单项？”等，因此无法明确其具体功能意图。
+4. 结合意图定义，“NoiseAction”适用于语义表达异常导致理解困难、ASR结果异常、指令搭配不合理等情况。
+5. 此处用户指令存在ASR识别异常字符（“�”），且整体语义不完整，无法匹配任何功能点，符合NoiseAction的判定标准。
+
+<answer>徐�选择第一个|NoiseAction</answer>
+[2026-04-27 20:41:44.332] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: 思考过程：
+1. 分析用户指令：“徐�选择第一个”。
+2. 观察到“徐�”部分存在字符异常，可能是ASR（自动语音识别）错误导致的乱码或非正常字符，例如“徐”后面紧跟了一个无法识别的字符（如“�”），这表明该部分可能为语音识别错误。
+3. “选择第一个”是一个动作意图，但缺少上下文支持，例如“选择第一个什么？”、“选择第一个菜单项？”等，因此无法明确其具体功能意图。
+4. 结合意图定义，“NoiseAction”适用于语义表达异常导致理解困难、ASR结果异常、指令搭配不合理等情况。
+5. 此处用户指令存在ASR识别异常字符（“�”），且整体语义不完整，无法匹配任何功能点，符合NoiseAction的判定标准。
+
+徐�选择第一个
+[2026-04-27 20:41:44.332] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 20:41:44.332] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:41:56.178] [INFO] [agent_system] Handling query: 选择第一个...
+[2026-04-27 20:41:56.245] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:41:56.245] [INFO] [agent_system] Stage 1 - Raw output: <domain>噪声动作域</domain>
+[2026-04-27 20:41:56.245] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 20:41:56.245] [INFO] [agent_system] Domain '噪声动作域' skills for stage 2 prompt:
+[2026-04-27 20:41:56.245] [INFO] [agent_system]   - NoiseAction: 不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合
+[2026-04-27 20:41:57.353] [INFO] [agent_system] Inference success, response length: 490
+[2026-04-27 20:41:57.353] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 分析用户指令“选择第一个”：
+   - 该指令是一个简短的、缺乏上下文的表达。
+   - 它没有明确的对象或场景，例如“选择第一个菜单项”、“选择第一个播放列表”等。
+   - 在智能座舱系统中，“选择第一个”本身无法独立触发任何功能，因为它缺少具体的实体或操作目标。
+   - 此类指令通常出现在用户误操作、语音识别错误或语义不完整的情况下。
+
+2. 匹配意图分类：
+   - NoiseAction：适用于语义表达异常、理解困难、指令搭配不合理或低频组合等情况。
+   - 用户指令“选择第一个”属于单实体（“第一个”）+ 完整query（“选择”）的低频组合，且缺乏上下文支持，无法匹配任何具体功能点。
+
+3. 排除其他意图：
+   - 该指令不属于智能座舱支持的技能领域，因此排除功能性意图。
+   - 不涉及语音交互中的错误纠正或系统反馈，因此不属于其他特定意图。
+
+4. 结论：
+   - 最符合该指令特征的是NoiseAction，因为它体现了语义不完整、无法理解意图的特点。
+
+<answer>ASR结果|NoiseAction</answer>
+[2026-04-27 20:41:57.354] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: 思考过程：
+1. 分析用户指令“选择第一个”：
+   - 该指令是一个简短的、缺乏上下文的表达。
+   - 它没有明确的对象或场景，例如“选择第一个菜单项”、“选择第一个播放列表”等。
+   - 在智能座舱系统中，“选择第一个”本身无法独立触发任何功能，因为它缺少具体的实体或操作目标。
+   - 此类指令通常出现在用户误操作、语音识别错误或语义不完整的情况下。
+
+2. 匹配意图分类：
+   - NoiseAction：适用于语义表达异常、理解困难、指令搭配不合理或低频组合等情况。
+   - 用户指令“选择第一个”属于单实体（“第一个”）+ 完整query（“选择”）的低频组合，且缺乏上下文支持，无法匹配任何具体功能点。
+
+3. 排除其他意图：
+   - 该指令不属于智能座舱支持的技能领域，因此排除功能性意图。
+   - 不涉及语音交互中的错误纠正或系统反馈，因此不属于其他特定意图。
+
+4. 结论：
+   - 最符合该指令特征的是NoiseAction，因为它体现了语义不完整、无法理解意图的特点。
+
+ASR结果
+[2026-04-27 20:41:57.354] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 20:41:57.354] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:41:59.432] [INFO] [agent_system] Handling query: 第一个...
+[2026-04-27 20:41:59.482] [INFO] [agent_system] Inference success, response length: 7
+[2026-04-27 20:41:59.482] [INFO] [agent_system] Stage 1 - Raw output: <噪声动作域>
+[2026-04-27 20:41:59.482] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 20:41:59.482] [INFO] [agent_system] Domain '噪声动作域' skills for stage 2 prompt:
+[2026-04-27 20:41:59.482] [INFO] [agent_system]   - NoiseAction: 不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合
+[2026-04-27 20:41:59.921] [INFO] [agent_system] Inference success, response length: 184
+[2026-04-27 20:41:59.921] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 分析用户指令：“第一个”。
+2. 该指令为单个词语，缺乏上下文支持，无法明确其意图。
+3. 未提供任何实体或完整query，属于低频组合。
+4. 无法匹配智能座舱支持的任何功能点。
+5. 根据【噪声动作域】定义，此类单实体+完整query的低频组合符合NoiseAction的特征。
+
+<answer>第一个|NoiseAction</answer>
+[2026-04-27 20:41:59.921] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: 思考过程：
+1. 分析用户指令：“第一个”。
+2. 该指令为单个词语，缺乏上下文支持，无法明确其意图。
+3. 未提供任何实体或完整query，属于低频组合。
+4. 无法匹配智能座舱支持的任何功能点。
+5. 根据【噪声动作域】定义，此类单实体+完整query的低频组合符合NoiseAction的特征。
+
+第一个
+[2026-04-27 20:41:59.921] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 20:41:59.922] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:43:04.685] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:43:04.686] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:43:04.686] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:43:08.997] [INFO] [agent_system] Handling query: daohangqu ...
+[2026-04-27 20:43:08.997] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': 'daohangqu '}
+[2026-04-27 20:43:09.065] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:43:09.065] [INFO] [agent_system] Stage 1 - Raw output: <domain>导航控制域</domain>
+[2026-04-27 20:43:09.065] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:43:09.065] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:43:09.065] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 20:43:09.065] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 20:43:09.065] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 20:43:09.065] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 20:43:09.066] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 20:43:09.066] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': 'daohangqu '}
+[2026-04-27 20:43:10.078] [INFO] [agent_system] Inference success, response length: 519
+[2026-04-27 20:43:10.079] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+用户输入为“daohangqu”，这是一个拼音输入，结合上下文和常见导航场景，可以推测用户实际意图是“导航去”，即希望发起一次导航操作，前往某个目的地。
+
+然而，该 ASR 结果仅包含“daohangqu”，缺少明确的目的地信息（如名称、地址、分类等），因此无法直接执行具体的导航意图，例如 NavigationSearchPoi 或 NavigationSearchCustomName。
+
+此外，用户并未提供任何上下文信息，例如“导航去公司”、“导航去加油站”等，因此无法判断其意图的具体方向。
+
+在导航控制域中，若用户输入模糊或不完整，且未携带足够信息以触发具体意图，则最合理的处理方式是退出当前导航状态，避免误操作。
+
+因此，该 ASR 结果属于无效或不完整指令，应选择 GeneralExit 或 NavigationExit 来退出当前导航流程。
+
+但由于 NavigationExit 更专注于导航领域，且意图描述为“退出当前导航”，与用户意图更贴近，因此优于 GeneralExit。
+
+最终判断：用户意图为退出当前导航。
+
+<answer>daohangqu|NavigationExit</answer>
+[2026-04-27 20:43:10.079] [INFO] [agent_system] Parsed intent: NavigationExit, ASR: 思考过程：
+
+用户输入为“daohangqu”，这是一个拼音输入，结合上下文和常见导航场景，可以推测用户实际意图是“导航去”，即希望发起一次导航操作，前往某个目的地。
+
+然而，该 ASR 结果仅包含“daohangqu”，缺少明确的目的地信息（如名称、地址、分类等），因此无法直接执行具体的导航意图，例如 NavigationSearchPoi 或 NavigationSearchCustomName。
+
+此外，用户并未提供任何上下文信息，例如“导航去公司”、“导航去加油站”等，因此无法判断其意图的具体方向。
+
+在导航控制域中，若用户输入模糊或不完整，且未携带足够信息以触发具体意图，则最合理的处理方式是退出当前导航状态，避免误操作。
+
+因此，该 ASR 结果属于无效或不完整指令，应选择 GeneralExit 或 NavigationExit 来退出当前导航流程。
+
+但由于 NavigationExit 更专注于导航领域，且意图描述为“退出当前导航”，与用户意图更贴近，因此优于 GeneralExit。
+
+最终判断：用户意图为退出当前导航。
+
+daohangqu
+[2026-04-27 20:43:10.079] [INFO] [agent_system] Exiting navigation
+[2026-04-27 20:43:10.079] [INFO] [agent_system] Executed tool NavigationExit, result: {'action': 'exit_navigation', 'status': 'executed'}
+[2026-04-27 20:43:10.079] [INFO] [agent_system] Tool execution: success
+[2026-04-27 20:43:37.940] [INFO] [agent_system] Handling query: 导航去天安门...
+[2026-04-27 20:43:37.940] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': 'daohangqu '}
+[2026-04-27 20:43:37.940] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationExit，ASR结果：思考过程：\n\n用户输入为“daohangqu”，这是一个拼音输入，结合上下文和常见导航场景，可以推测用户实际意图是“导航去”，即希望发起一次导航操作，前往某个目的地。\n\n然而，该 ASR 结果仅包含“daohangqu”，缺少明确的目的地信息（如名称、地址、分类等），因此无法直接执行具体的导航意图，例如 NavigationSearchPoi 或 NavigationSearchCustomName。\n\n此外，用户并未提供任何上下文信息，例如“导航去公司”、“导航去加油站”等，因此无法判断其意图的具体方向。\n\n在导航控制域中，若用户输入模糊或不完整，且未携带足够信息以触发具体意图，则最合理的处理方式是退出当前导航状态，避免误操作。\n\n因此，该 ASR 结果属于无效或不完整指令，应选择 GeneralExit 或 NavigationExit 来退出当前导航流程。\n\n但由于 NavigationExit 更专注于导航领域，且意图描述为“退出当前导航”，与用户意图更贴近，因此优于 GeneralExit。\n\n最终判断：用户意图为退出当前导航。\n\ndaohangqu'}
+[2026-04-27 20:43:37.940] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去天安门'}
+[2026-04-27 20:43:38.005] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:43:38.005] [INFO] [agent_system] Stage 1 - Raw output: <domain>导航控制域</domain>
+[2026-04-27 20:43:38.005] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:43:38.005] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:43:38.005] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 20:43:38.006] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 20:43:38.006] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': 'daohangqu '}
+[2026-04-27 20:43:38.006] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationExit，ASR结果：思考过程：\n\n用户输入为“daohangqu”，这是一个拼音输入，结合上下文和常见导航场景，可以推测用户实际意图是“导航去”，即希望发起一次导航操作，前往某个目的地。\n\n然而，该 ASR 结果仅包含“daohangqu”，缺少明确的目的地信息（如名称、地址、分类等），因此无法直接执行具体的导航意图，例如 NavigationSearchPoi 或 NavigationSearchCustomName。\n\n此外，用户并未提供任何上下文信息，例如“导航去公司”、“导航去加油站”等，因此无法判断其意图的具体方向。\n\n在导航控制域中，若用户输入模糊或不完整，且未携带足够信息以触发具体意图，则最合理的处理方式是退出当前导航状态，避免误操作。\n\n因此，该 ASR 结果属于无效或不完整指令，应选择 GeneralExit 或 NavigationExit 来退出当前导航流程。\n\n但由于 NavigationExit 更专注于导航领域，且意图描述为“退出当前导航”，与用户意图更贴近，因此优于 GeneralExit。\n\n最终判断：用户意图为退出当前导航。\n\ndaohangqu'}
+[2026-04-27 20:43:38.006] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去天安门'}
+[2026-04-27 20:43:38.829] [INFO] [agent_system] Inference success, response length: 398
+[2026-04-27 20:43:38.829] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 用户指令为“导航去天安门”，核心诉求是发起一次导航任务，并将目的地设定为“天安门”。
+2. 分析可用意图列表，发现意图 NavigationSearchPoi 表示“搜索导航目的地（兴趣点）”，支持按名称、地址、分类等多维度匹配，符合用户输入“天安门”这一具体兴趣点名称的需求。
+3. 其他意图如 NavigationSearchCharging、NavigationSetRoutePrefer 等均不适用于直接发起导航至某兴趣点的操作。
+4. NavigationSearchCustomName 是用于预设地点（如家、公司）的快速调用，而“天安门”不属于默认常用地点，因此不适合。
+5. 因此，最匹配意图是 NavigationSearchPoi，用于搜索并确认兴趣点作为导航目的地。
+
+<answer>ASR结果|NavigationSearchPoi</answer>
+[2026-04-27 20:43:38.829] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 思考过程：
+1. 用户指令为“导航去天安门”，核心诉求是发起一次导航任务，并将目的地设定为“天安门”。
+2. 分析可用意图列表，发现意图 NavigationSearchPoi 表示“搜索导航目的地（兴趣点）”，支持按名称、地址、分类等多维度匹配，符合用户输入“天安门”这一具体兴趣点名称的需求。
+3. 其他意图如 NavigationSearchCharging、NavigationSetRoutePrefer 等均不适用于直接发起导航至某兴趣点的操作。
+4. NavigationSearchCustomName 是用于预设地点（如家、公司）的快速调用，而“天安门”不属于默认常用地点，因此不适合。
+5. 因此，最匹配意图是 NavigationSearchPoi，用于搜索并确认兴趣点作为导航目的地。
+
+ASR结果
+[2026-04-27 20:43:38.829] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 20:43:38.829] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:43:55.505] [INFO] [agent_system] Handling query: 第二个...
+[2026-04-27 20:43:55.505] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': 'daohangqu '}
+[2026-04-27 20:43:55.505] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationExit，ASR结果：思考过程：\n\n用户输入为“daohangqu”，这是一个拼音输入，结合上下文和常见导航场景，可以推测用户实际意图是“导航去”，即希望发起一次导航操作，前往某个目的地。\n\n然而，该 ASR 结果仅包含“daohangqu”，缺少明确的目的地信息（如名称、地址、分类等），因此无法直接执行具体的导航意图，例如 NavigationSearchPoi 或 NavigationSearchCustomName。\n\n此外，用户并未提供任何上下文信息，例如“导航去公司”、“导航去加油站”等，因此无法判断其意图的具体方向。\n\n在导航控制域中，若用户输入模糊或不完整，且未携带足够信息以触发具体意图，则最合理的处理方式是退出当前导航状态，避免误操作。\n\n因此，该 ASR 结果属于无效或不完整指令，应选择 GeneralExit 或 NavigationExit 来退出当前导航流程。\n\n但由于 NavigationExit 更专注于导航领域，且意图描述为“退出当前导航”，与用户意图更贴近，因此优于 GeneralExit。\n\n最终判断：用户意图为退出当前导航。\n\ndaohangqu'}
+[2026-04-27 20:43:55.505] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去天安门'}
+[2026-04-27 20:43:55.505] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationSearchPoi，ASR结果：思考过程：\n1. 用户指令为“导航去天安门”，核心诉求是发起一次导航任务，并将目的地设定为“天安门”。\n2. 分析可用意图列表，发现意图 NavigationSearchPoi 表示“搜索导航目的地（兴趣点）”，支持按名称、地址、分类等多维度匹配，符合用户输入“天安门”这一具体兴趣点名称的需求。\n3. 其他意图如 NavigationSearchCharging、NavigationSetRoutePrefer 等均不适用于直接发起导航至某兴趣点的操作。\n4. NavigationSearchCustomName 是用于预设地点（如家、公司）的快速调用，而“天安门”不属于默认常用地点，因此不适合。\n5. 因此，最匹配意图是 NavigationSearchPoi，用于搜索并确认兴趣点作为导航目的地。\n\nASR结果'}
+[2026-04-27 20:43:55.505] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '第二个'}
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Inference success, response length: 22
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Stage 1 - Raw output: <domain>噪声动作域</domain>
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Domain '噪声动作域' skills for stage 2 prompt:
+[2026-04-27 20:43:55.567] [INFO] [agent_system]   - NoiseAction: 不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': 'daohangqu '}
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationExit，ASR结果：思考过程：\n\n用户输入为“daohangqu”，这是一个拼音输入，结合上下文和常见导航场景，可以推测用户实际意图是“导航去”，即希望发起一次导航操作，前往某个目的地。\n\n然而，该 ASR 结果仅包含“daohangqu”，缺少明确的目的地信息（如名称、地址、分类等），因此无法直接执行具体的导航意图，例如 NavigationSearchPoi 或 NavigationSearchCustomName。\n\n此外，用户并未提供任何上下文信息，例如“导航去公司”、“导航去加油站”等，因此无法判断其意图的具体方向。\n\n在导航控制域中，若用户输入模糊或不完整，且未携带足够信息以触发具体意图，则最合理的处理方式是退出当前导航状态，避免误操作。\n\n因此，该 ASR 结果属于无效或不完整指令，应选择 GeneralExit 或 NavigationExit 来退出当前导航流程。\n\n但由于 NavigationExit 更专注于导航领域，且意图描述为“退出当前导航”，与用户意图更贴近，因此优于 GeneralExit。\n\n最终判断：用户意图为退出当前导航。\n\ndaohangqu'}
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去天安门'}
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationSearchPoi，ASR结果：思考过程：\n1. 用户指令为“导航去天安门”，核心诉求是发起一次导航任务，并将目的地设定为“天安门”。\n2. 分析可用意图列表，发现意图 NavigationSearchPoi 表示“搜索导航目的地（兴趣点）”，支持按名称、地址、分类等多维度匹配，符合用户输入“天安门”这一具体兴趣点名称的需求。\n3. 其他意图如 NavigationSearchCharging、NavigationSetRoutePrefer 等均不适用于直接发起导航至某兴趣点的操作。\n4. NavigationSearchCustomName 是用于预设地点（如家、公司）的快速调用，而“天安门”不属于默认常用地点，因此不适合。\n5. 因此，最匹配意图是 NavigationSearchPoi，用于搜索并确认兴趣点作为导航目的地。\n\nASR结果'}
+[2026-04-27 20:43:55.567] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '第二个'}
+[2026-04-27 20:43:56.306] [INFO] [agent_system] Inference success, response length: 319
+[2026-04-27 20:43:56.306] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 分析用户指令“第二个”：
+   - 该指令为单个词语，缺乏上下文支持。
+   - 未提供明确的实体或意图背景，例如“第二个选项”、“第二个音乐”等。
+   - 无法判断其具体意图或功能指向。
+2. 根据【噪声动作域】定义：
+   - 单实体+完整query的低频组合属于NoiseAction。
+   - “第二个”属于单实体（数字+序数词），且无完整query支撑。
+3. 排除其他意图：
+   - 不属于智能座舱支持的技能领域。
+   - 语义表达异常或理解困难。
+   - 搭配不合理，缺乏上下文。
+
+因此，最匹配的意图是NoiseAction。
+
+<answer>第二个|NoiseAction</answer>
+[2026-04-27 20:43:56.306] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: 思考过程：
+1. 分析用户指令“第二个”：
+   - 该指令为单个词语，缺乏上下文支持。
+   - 未提供明确的实体或意图背景，例如“第二个选项”、“第二个音乐”等。
+   - 无法判断其具体意图或功能指向。
+2. 根据【噪声动作域】定义：
+   - 单实体+完整query的低频组合属于NoiseAction。
+   - “第二个”属于单实体（数字+序数词），且无完整query支撑。
+3. 排除其他意图：
+   - 不属于智能座舱支持的技能领域。
+   - 语义表达异常或理解困难。
+   - 搭配不合理，缺乏上下文。
+
+因此，最匹配的意图是NoiseAction。
+
+第二个
+[2026-04-27 20:43:56.306] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 20:43:56.306] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:45:55.314] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:45:55.315] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:45:55.315] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:45:59.975] [INFO] [agent_system] Handling query: 导航去天安门...
+[2026-04-27 20:45:59.975] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去天安门'}
+[2026-04-27 20:46:00.288] [INFO] [agent_system] Inference success, response length: 111
+[2026-04-27 20:46:00.289] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：用户指令为“导航去天安门”，其中“导航”表明涉及导航功能，“去天安门”是明确的目的地。该指令属于导航相关操作，具体为搜索目的地。因此，该指令应归类到【导航控制域】。
+
+<domain>导航控制域</domain>
+[2026-04-27 20:46:00.289] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:46:00.289] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 20:46:00.289] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 20:46:00.289] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去天安门'}
+[2026-04-27 20:46:00.986] [INFO] [agent_system] Inference success, response length: 347
+[2026-04-27 20:46:00.986] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 用户输入为“导航去天安门”，这是一个明确的导航目的地请求。
+2. 分析意图列表，发现“NavigationSearchPoi”支持按名称、地址、分类等多维度匹配兴趣点（POI），而“天安门”是一个具体的兴趣点名称。
+3. 用户没有提及充电站、路线偏好、地图模式等功能，因此排除其他非核心意图。
+4. “NavigationSearchPoi”是用于搜索导航目的地（兴趣点）的意图，符合用户意图。
+5. 其他意图如“NavigationSearchCharging”、“NavigationSetRoutePrefer”等均不符合当前需求。
+
+最终判断：用户意图是搜索兴趣点作为导航目的地。
+
+<answer>ASR结果|NavigationSearchPoi</answer>
+[2026-04-27 20:46:00.986] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 思考过程：
+1. 用户输入为“导航去天安门”，这是一个明确的导航目的地请求。
+2. 分析意图列表，发现“NavigationSearchPoi”支持按名称、地址、分类等多维度匹配兴趣点（POI），而“天安门”是一个具体的兴趣点名称。
+3. 用户没有提及充电站、路线偏好、地图模式等功能，因此排除其他非核心意图。
+4. “NavigationSearchPoi”是用于搜索导航目的地（兴趣点）的意图，符合用户意图。
+5. 其他意图如“NavigationSearchCharging”、“NavigationSetRoutePrefer”等均不符合当前需求。
+
+最终判断：用户意图是搜索兴趣点作为导航目的地。
+
+ASR结果
+[2026-04-27 20:46:00.986] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 20:46:00.986] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:46:42.646] [INFO] [agent_system] Handling query: 第一个...
+[2026-04-27 20:46:42.646] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去天安门'}
+[2026-04-27 20:46:42.646] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationSearchPoi，ASR结果：思考过程：\n1. 用户输入为“导航去天安门”，这是一个明确的导航目的地请求。\n2. 分析意图列表，发现“NavigationSearchPoi”支持按名称、地址、分类等多维度匹配兴趣点（POI），而“天安门”是一个具体的兴趣点名称。\n3. 用户没有提及充电站、路线偏好、地图模式等功能，因此排除其他非核心意图。\n4. “NavigationSearchPoi”是用于搜索导航目的地（兴趣点）的意图，符合用户意图。\n5. 其他意图如“NavigationSearchCharging”、“NavigationSetRoutePrefer”等均不符合当前需求。\n\n最终判断：用户意图是搜索兴趣点作为导航目的地。\n\nASR结果'}
+[2026-04-27 20:46:42.646] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '第一个'}
+[2026-04-27 20:46:42.696] [INFO] [agent_system] Inference success, response length: 21
+[2026-04-27 20:46:42.696] [INFO] [agent_system] Stage 1 - Raw output: <noise_action_domain>
+[2026-04-27 20:46:42.696] [ERROR] [agent_system] 无法识别功能域，原始输出: <noise_action_domain>
+[2026-04-27 20:49:38.090] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:49:38.091] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:49:38.091] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:49:51.125] [INFO] [agent_system] Handling query: 导航去中关村...
+[2026-04-27 20:49:51.125] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去中关村'}
+[2026-04-27 20:49:51.806] [INFO] [agent_system] Inference success, response length: 245
+[2026-04-27 20:49:51.806] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：
+
+1. 用户指令为“导航去中关村”。
+2. 分析关键词：“导航”表示与导航功能相关，“去中关村”表示目的地为中关村。
+3. 根据功能域定义，“导航控制域”包括搜索目的地、路线偏好、地图模式、途经点、路况、位置查询、退出导航等。
+4. “导航去中关村”属于明确的导航操作，涉及搜索目的地（中关村），因此应归类为“导航控制域”。
+5. 不涉及其他功能域如空调、座椅、媒体等，排除其他可能性。
+6. 指令清晰，无歧义，不属于噪声动作域。
+
+<domain>导航控制域</domain>
+[2026-04-27 20:49:51.806] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:49:51.806] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 20:49:51.806] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 20:49:51.807] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 20:49:51.807] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去中关村'}
+[2026-04-27 20:49:52.609] [INFO] [agent_system] Inference success, response length: 412
+[2026-04-27 20:49:52.609] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+用户输入为“导航去中关村”，这是一个明确的导航目的地请求。关键词“导航去”表明用户希望启动导航功能，“中关村”是一个具体的兴趣点（POI），属于地理位置名称。
+
+结合可用意图列表分析：
+
+- NavigationSearchPoi：支持按名称、地址、分类等方式搜索兴趣点，适用于用户输入具体地点名称如“中关村”进行导航目的地匹配。
+- 其他意图如 Charging、RoutePrefer、MapMode 等均不符合“去某地”的意图。
+
+因此，最匹配意图是 NavigationSearchPoi，因为它专门用于搜索兴趣点作为导航目的地，符合用户意图。
+
+此外，用户未提及充电、偏好设置、地图模式等额外需求，排除其他非核心意图。
+
+最终判断：ASR结果“导航去中关村”对应意图应为 NavigationSearchPoi。
+
+<answer>ASR结果|NavigationSearchPoi</answer>
+[2026-04-27 20:49:52.609] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 思考过程：
+
+用户输入为“导航去中关村”，这是一个明确的导航目的地请求。关键词“导航去”表明用户希望启动导航功能，“中关村”是一个具体的兴趣点（POI），属于地理位置名称。
+
+结合可用意图列表分析：
+
+- NavigationSearchPoi：支持按名称、地址、分类等方式搜索兴趣点，适用于用户输入具体地点名称如“中关村”进行导航目的地匹配。
+- 其他意图如 Charging、RoutePrefer、MapMode 等均不符合“去某地”的意图。
+
+因此，最匹配意图是 NavigationSearchPoi，因为它专门用于搜索兴趣点作为导航目的地，符合用户意图。
+
+此外，用户未提及充电、偏好设置、地图模式等额外需求，排除其他非核心意图。
+
+最终判断：ASR结果“导航去中关村”对应意图应为 NavigationSearchPoi。
+
+ASR结果
+[2026-04-27 20:49:52.609] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 20:49:52.609] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:49:58.554] [INFO] [agent_system] Handling query: 第一个...
+[2026-04-27 20:49:58.554] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去中关村'}
+[2026-04-27 20:49:58.554] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationSearchPoi，ASR结果：思考过程：\n\n用户输入为“导航去中关村”，这是一个明确的导航目的地请求。关键词“导航去”表明用户希望启动导航功能，“中关村”是一个具体的兴趣点（POI），属于地理位置名称。\n\n结合可用意图列表分析：\n\n- NavigationSearchPoi：支持按名称、地址、分类等方式搜索兴趣点，适用于用户输入具体地点名称如“中关村”进行导航目的地匹配。\n- 其他意图如 Charging、RoutePrefer、MapMode 等均不符合“去某地”的意图。\n\n因此，最匹配意图是 NavigationSearchPoi，因为它专门用于搜索兴趣点作为导航目的地，符合用户意图。\n\n此外，用户未提及充电、偏好设置、地图模式等额外需求，排除其他非核心意图。\n\n最终判断：ASR结果“导航去中关村”对应意图应为 NavigationSearchPoi。\n\nASR结果'}
+[2026-04-27 20:49:58.554] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '第一个'}
+[2026-04-27 20:49:59.119] [INFO] [agent_system] Inference success, response length: 245
+[2026-04-27 20:49:59.119] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：
+
+用户指令为“第一个”，这是一个非常简短的表述，缺乏上下文信息。在没有上下文的情况下，“第一个”本身无法明确指向任何具体的功能点，例如导航中的第一个路线选项、音乐列表中的第一个歌曲、消息中的第一条消息等。
+
+根据规则，如果指令为“第XX个”、“第XX条”等表述，需要结合上文对话内容进行判断。然而当前用户仅发送了“第一个”，并未提供任何上下文信息，因此无法判断其具体意图。
+
+在这种情况下，该指令属于无法匹配任何功能点的异常指令。
+
+<domain>噪声动作域</domain>
+[2026-04-27 20:49:59.119] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 20:49:59.119] [INFO] [agent_system] Domain '噪声动作域' skills for stage 2 prompt:
+[2026-04-27 20:49:59.119] [INFO] [agent_system]   - NoiseAction: 不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合
+[2026-04-27 20:49:59.119] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '导航去中关村'}
+[2026-04-27 20:49:59.119] [INFO] [agent_system] Adding history to inference payload: {'role': 'assistant', 'content': '已识别您的意图：NavigationSearchPoi，ASR结果：思考过程：\n\n用户输入为“导航去中关村”，这是一个明确的导航目的地请求。关键词“导航去”表明用户希望启动导航功能，“中关村”是一个具体的兴趣点（POI），属于地理位置名称。\n\n结合可用意图列表分析：\n\n- NavigationSearchPoi：支持按名称、地址、分类等方式搜索兴趣点，适用于用户输入具体地点名称如“中关村”进行导航目的地匹配。\n- 其他意图如 Charging、RoutePrefer、MapMode 等均不符合“去某地”的意图。\n\n因此，最匹配意图是 NavigationSearchPoi，因为它专门用于搜索兴趣点作为导航目的地，符合用户意图。\n\n此外，用户未提及充电、偏好设置、地图模式等额外需求，排除其他非核心意图。\n\n最终判断：ASR结果“导航去中关村”对应意图应为 NavigationSearchPoi。\n\nASR结果'}
+[2026-04-27 20:49:59.119] [INFO] [agent_system] Adding history to inference payload: {'role': 'user', 'content': '第一个'}
+[2026-04-27 20:49:59.557] [INFO] [agent_system] Inference success, response length: 190
+[2026-04-27 20:49:59.557] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 分析用户指令：“第一个”。
+2. 该指令为单个词语，缺乏上下文支持，无法明确其意图。
+3. 该指令未提供任何实体或完整query，属于低频组合。
+4. 根据【噪声动作域】定义，单实体+完整query的低频组合属于NoiseAction。
+5. 因此，该指令最匹配的意图是NoiseAction。
+
+<answer>第一个|NoiseAction</answer>
+[2026-04-27 20:49:59.557] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: 思考过程：
+1. 分析用户指令：“第一个”。
+2. 该指令为单个词语，缺乏上下文支持，无法明确其意图。
+3. 该指令未提供任何实体或完整query，属于低频组合。
+4. 根据【噪声动作域】定义，单实体+完整query的低频组合属于NoiseAction。
+5. 因此，该指令最匹配的意图是NoiseAction。
+
+第一个
+[2026-04-27 20:49:59.557] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 20:49:59.557] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:53:01.050] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:53:01.051] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:53:01.051] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:53:06.710] [INFO] [agent_system] Handling query: 导航去中关村...
+[2026-04-27 20:53:06.710] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': [{'type': 'text', 'text': '你是车机语音语义理解助手。请根据用户指令判断属于以下哪个功能域。请你一步步思考后，输出思考过程，再按<domain>域名</domain>的格式输出。\n\n- 【导航控制域】：导航相关：搜索目的地、充电站、路线偏好、地图模式、途经点、路况、位置查询、退出导航等\n- 【车窗控制域】：车窗、天窗、遮阳帘、天幕的开关和调节\n- 【声音控制域】：车内外声音、音量、声浪、音效的开关和调节\n- 【座椅控制域】：座椅加热、通风、按摩、位置调节等功能的开关和设置\n- 【空调控制域】：空调制冷、制热、风量、吹风模式、温度调节等\n- 【车辆控制综合域】：驾驶模式、动力模式、悬架、车灯、后视镜、充电口、门窗等车辆综合控制\n- 【信息查询域】：车辆状态、系统设置、空调信息等查询\n- 【电话与消息域】：电话拨打、接听、消息发送等通讯功能\n- 【应用与界面域】：应用打开关闭、界面控制、屏幕镜像等\n- 【视频与媒体域】：音乐、视频、电台播放控制及搜索\n- 【百科与知识问答域】：股票、天气、计算、翻译、百科知识等问答\n- 【闲聊与生成域】：日常闲聊、故事生成、文生图等AIGC功能\n- 【天气与实用工具域】：天气查询及实用工具\n- 【摄像头与泊车域】：摄像头控制及自动泊车功能\n- 【驾驶辅助域】：驾驶辅助相关设置\n- 【屏幕控制】：屏幕分屏、全屏、扩大缩小等控制\n- 【噪声动作域】：无法匹配任何功能点的异常指令\n\n用户指令：导航去中关村\n必须注意：如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。'}]}]
+[2026-04-27 20:53:07.340] [INFO] [agent_system] Inference success, response length: 245
+[2026-04-27 20:53:07.340] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：
+
+1. 用户指令为“导航去中关村”。
+2. 分析关键词：“导航”表示与导航功能相关，“去中关村”表示目的地为中关村。
+3. 根据功能域定义，“导航控制域”包括搜索目的地、路线偏好、地图模式、途经点、路况、位置查询、退出导航等。
+4. “导航去中关村”属于明确的导航操作，涉及搜索目的地（中关村），因此应归类为“导航控制域”。
+5. 不涉及其他功能域如空调、座椅、媒体等，排除其他可能性。
+6. 指令清晰，无歧义，不属于噪声动作域。
+
+<domain>导航控制域</domain>
+[2026-04-27 20:53:07.340] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:53:07.340] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:53:07.340] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 20:53:07.340] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 20:53:07.340] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 20:53:07.340] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 20:53:07.340] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:53:07.340] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:53:07.340] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 20:53:07.340] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 20:53:07.341] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 20:53:07.341] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': [{'type': 'text', 'text': '用户指令属于【导航控制域】，以下是该域所有可用意图：\n\n- NavigationSearchPoi：搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配\n- NavigationSearchCharging：搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选\n- NavigationSetRoutePrefer：设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）\n- NavigationCancelRoutePrefer：取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑\n- NavigationOpenMode：开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）\n- NavigationCloseMode：关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）\n- NavigationSearchCustomName：搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航\n- NavigationSetMapMode：设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小\n- NavigationSetCustomName：设置导航常用地点（如家、公司）的地址信息，完成预设地点录入\n- NavigationSetDestination：添加或修改导航途经点，支持多途经点顺序调整\n- NavigationSearchOnwayPoi：搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）\n- NavigationInfoLocation：查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）\n- NavigationQueryInfo：查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）\n- NavigationChargingUnlock：解锁导航推荐充电站的地锁\n- NavigationTrafficInfo：查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）\n- NavigationUpdateRoute：更新当前导航路线（如因实时路况变化、临时管制重新规划路线）\n- NavigationSearchMultiPoi：同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）\n- NavigationRouteChoose：根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线\n- NavigationWatchLocation：查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）\n- GeneralExit：退出当前导航，停止路线引导、语音播报等所有导航相关功能\n- NavigationExit：退出当前导航，停止路线引导、语音播报等所有导航相关功能\n- NavigationPoiSelect：在多个匹配的兴趣点（POI）结果中确认选择目标地点\n- NavigationRouteSelect：在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能\n- NavigationDeleteWaypoints：删除已添加的导航途经点，支持单个或批量删除\n- NavigationServiceInfo：查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）\n- NavigationPoiInfo：无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）\n- NavigationLightInfo：查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）\n- NavigationGetInfo：导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）\n- NavigationPoiPicks：导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点\n- NavigationTripPlanner：导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序\n- PhoneNavigation：手机-车辆导航同步\n\n用户指令：导航去中关村\n请从以上意图中选择最匹配的一个，请一步步思考并输出思考过程，最终输出格式：<think>思考过程</think><answer>ASR结果|意图名称</answer>'}]}]
+[2026-04-27 20:53:08.142] [INFO] [agent_system] Inference success, response length: 412
+[2026-04-27 20:53:08.142] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+用户输入为“导航去中关村”，这是一个明确的导航目的地请求。关键词“导航去”表明用户希望启动导航功能，“中关村”是一个具体的兴趣点（POI），属于地理位置名称。
+
+结合可用意图列表分析：
+
+- NavigationSearchPoi：支持按名称、地址、分类等方式搜索兴趣点，适用于用户输入具体地点名称如“中关村”进行导航目的地匹配。
+- 其他意图如 Charging、RoutePrefer、MapMode 等均不符合“去某地”的意图。
+
+因此，最匹配意图是 NavigationSearchPoi，因为它专门用于搜索兴趣点作为导航目的地，符合用户意图。
+
+此外，用户未提及充电、偏好设置、地图模式等额外需求，排除其他非核心意图。
+
+最终判断：ASR结果“导航去中关村”对应意图应为 NavigationSearchPoi。
+
+<answer>ASR结果|NavigationSearchPoi</answer>
+[2026-04-27 20:53:08.142] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 思考过程：
+
+用户输入为“导航去中关村”，这是一个明确的导航目的地请求。关键词“导航去”表明用户希望启动导航功能，“中关村”是一个具体的兴趣点（POI），属于地理位置名称。
+
+结合可用意图列表分析：
+
+- NavigationSearchPoi：支持按名称、地址、分类等方式搜索兴趣点，适用于用户输入具体地点名称如“中关村”进行导航目的地匹配。
+- 其他意图如 Charging、RoutePrefer、MapMode 等均不符合“去某地”的意图。
+
+因此，最匹配意图是 NavigationSearchPoi，因为它专门用于搜索兴趣点作为导航目的地，符合用户意图。
+
+此外，用户未提及充电、偏好设置、地图模式等额外需求，排除其他非核心意图。
+
+最终判断：ASR结果“导航去中关村”对应意图应为 NavigationSearchPoi。
+
+ASR结果
+[2026-04-27 20:53:08.142] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 20:53:08.142] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:53:52.203] [INFO] [agent_system] Handling query: 取第一个...
+[2026-04-27 20:53:52.203] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': [{'type': 'text', 'text': '你是车机语音语义理解助手。请根据用户指令判断属于以下哪个功能域。请你一步步思考后，输出思考过程，再按<domain>域名</domain>的格式输出。\n\n- 【导航控制域】：导航相关：搜索目的地、充电站、路线偏好、地图模式、途经点、路况、位置查询、退出导航等\n- 【车窗控制域】：车窗、天窗、遮阳帘、天幕的开关和调节\n- 【声音控制域】：车内外声音、音量、声浪、音效的开关和调节\n- 【座椅控制域】：座椅加热、通风、按摩、位置调节等功能的开关和设置\n- 【空调控制域】：空调制冷、制热、风量、吹风模式、温度调节等\n- 【车辆控制综合域】：驾驶模式、动力模式、悬架、车灯、后视镜、充电口、门窗等车辆综合控制\n- 【信息查询域】：车辆状态、系统设置、空调信息等查询\n- 【电话与消息域】：电话拨打、接听、消息发送等通讯功能\n- 【应用与界面域】：应用打开关闭、界面控制、屏幕镜像等\n- 【视频与媒体域】：音乐、视频、电台播放控制及搜索\n- 【百科与知识问答域】：股票、天气、计算、翻译、百科知识等问答\n- 【闲聊与生成域】：日常闲聊、故事生成、文生图等AIGC功能\n- 【天气与实用工具域】：天气查询及实用工具\n- 【摄像头与泊车域】：摄像头控制及自动泊车功能\n- 【驾驶辅助域】：驾驶辅助相关设置\n- 【屏幕控制】：屏幕分屏、全屏、扩大缩小等控制\n- 【噪声动作域】：无法匹配任何功能点的异常指令\n\n用户指令：取第一个\n必须注意：如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。'}]}]
+[2026-04-27 20:53:52.813] [INFO] [agent_system] Inference success, response length: 247
+[2026-04-27 20:53:52.813] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：
+
+用户指令为“取第一个”，这是一个不完整的指令，缺乏上下文信息。该指令本身没有明确的意图，无法判断其具体功能指向。例如，“取第一个”可能是取列表中的第一个项目，但没有说明是哪个列表（如导航结果、音乐列表、消息列表等）。由于缺少上下文支持，无法将其归类到任何具体的功能域中。
+
+此外，该指令不符合任何功能域的典型表达方式，也无法通过语义理解推断其意图。因此，根据规则，当指令无法匹配任何功能点且缺乏上下文支持时，应归类为“噪声动作域”。
+
+<domain>噪声动作域</domain>
+[2026-04-27 20:53:52.813] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 20:53:52.813] [INFO] [agent_system] Domain '噪声动作域' skills for stage 2 prompt:
+[2026-04-27 20:53:52.813] [INFO] [agent_system]   - NoiseAction: 不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合
+[2026-04-27 20:53:52.813] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': [{'type': 'text', 'text': '用户指令属于【噪声动作域】，以下是该域所有可用意图：\n\n- NoiseAction：不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合\n\n用户指令：取第一个\n请从以上意图中选择最匹配的一个，请一步步思考并输出思考过程，最终输出格式：<think>思考过程</think><answer>ASR结果|意图名称</answer>'}]}]
+[2026-04-27 20:53:53.878] [INFO] [agent_system] Inference success, response length: 462
+[2026-04-27 20:53:53.878] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+1. 分析用户指令“取第一个”：
+   - 该指令是一个不完整的句子，缺少上下文信息。
+   - “取第一个”通常需要搭配具体对象或场景才能理解其意图，例如“取第一个菜单项”、“取第一个联系人”等。
+   - 在当前语境下，没有明确的上下文支持，无法判断用户希望操作的具体功能或实体。
+   - 此类单实体+完整query的低频组合不符合智能座舱支持的功能点定义。
+
+2. 匹配意图分类：
+   - 根据【噪声动作域】定义，NoiseAction适用于语义表达异常导致理解困难、指令搭配不合理或低频组合等情况。
+   - 用户指令“取第一个”属于缺乏上下文支撑的不完整表达，难以准确解析意图。
+
+3. 排除其他意图：
+   - 不属于任何具体技能领域（如导航、音乐播放等），因此排除功能性意图。
+   - 由于无法匹配任何功能点，符合NoiseAction的判定标准。
+
+最终判断：该指令属于无法匹配任何功能点的低频组合，且语义表达不完整。
+
+<answer>ASR结果|NoiseAction</answer>
+[2026-04-27 20:53:53.878] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: 思考过程：
+1. 分析用户指令“取第一个”：
+   - 该指令是一个不完整的句子，缺少上下文信息。
+   - “取第一个”通常需要搭配具体对象或场景才能理解其意图，例如“取第一个菜单项”、“取第一个联系人”等。
+   - 在当前语境下，没有明确的上下文支持，无法判断用户希望操作的具体功能或实体。
+   - 此类单实体+完整query的低频组合不符合智能座舱支持的功能点定义。
+
+2. 匹配意图分类：
+   - 根据【噪声动作域】定义，NoiseAction适用于语义表达异常导致理解困难、指令搭配不合理或低频组合等情况。
+   - 用户指令“取第一个”属于缺乏上下文支撑的不完整表达，难以准确解析意图。
+
+3. 排除其他意图：
+   - 不属于任何具体技能领域（如导航、音乐播放等），因此排除功能性意图。
+   - 由于无法匹配任何功能点，符合NoiseAction的判定标准。
+
+最终判断：该指令属于无法匹配任何功能点的低频组合，且语义表达不完整。
+
+ASR结果
+[2026-04-27 20:53:53.878] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 20:53:53.878] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:56:29.437] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 20:56:29.441] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 20:56:29.441] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 20:56:34.650] [INFO] [agent_system] Handling query: 导航去南极洲...
+[2026-04-27 20:56:34.650] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': [{'type': 'text', 'text': '你是车机语音语义理解助手。请根据用户指令判断属于以下哪个功能域。请你一步步思考后，输出思考过程，再按<domain>域名</domain>的格式输出。\n\n- 【导航控制域】：导航相关：搜索目的地、充电站、路线偏好、地图模式、途经点、路况、位置查询、退出导航等\n- 【车窗控制域】：车窗、天窗、遮阳帘、天幕的开关和调节\n- 【声音控制域】：车内外声音、音量、声浪、音效的开关和调节\n- 【座椅控制域】：座椅加热、通风、按摩、位置调节等功能的开关和设置\n- 【空调控制域】：空调制冷、制热、风量、吹风模式、温度调节等\n- 【车辆控制综合域】：驾驶模式、动力模式、悬架、车灯、后视镜、充电口、门窗等车辆综合控制\n- 【信息查询域】：车辆状态、系统设置、空调信息等查询\n- 【电话与消息域】：电话拨打、接听、消息发送等通讯功能\n- 【应用与界面域】：应用打开关闭、界面控制、屏幕镜像等\n- 【视频与媒体域】：音乐、视频、电台播放控制及搜索\n- 【百科与知识问答域】：股票、天气、计算、翻译、百科知识等问答\n- 【闲聊与生成域】：日常闲聊、故事生成、文生图等AIGC功能\n- 【天气与实用工具域】：天气查询及实用工具\n- 【摄像头与泊车域】：摄像头控制及自动泊车功能\n- 【驾驶辅助域】：驾驶辅助相关设置\n- 【屏幕控制】：屏幕分屏、全屏、扩大缩小等控制\n- 【噪声动作域】：无法匹配任何功能点的异常指令\n\n用户指令：导航去南极洲\n必须注意：如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。'}]}]
+[2026-04-27 20:56:35.351] [INFO] [agent_system] Inference success, response length: 248
+[2026-04-27 20:56:35.351] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：
+
+1. 用户指令为“导航去南极洲”。
+2. 分析关键词：“导航”表示与导航功能相关，“去南极洲”表示目的地。
+3. 根据功能域定义，“导航控制域”包括搜索目的地、路线偏好、地图模式等操作。
+4. “导航去南极洲”属于典型的“搜索目的地”操作，因此应归类为导航控制域。
+5. 不涉及车窗、空调、座椅等其他功能域。
+6. 并非闲聊或生成类内容，不属于闲聊与生成域。
+7. 也不是电话、媒体播放、摄像头等功能。
+
+因此，该指令属于导航控制域。
+
+<domain>导航控制域</domain>
+[2026-04-27 20:56:35.351] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 20:56:35.351] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 20:56:35.351] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 20:56:35.352] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 20:56:35.352] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 20:56:35.352] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 20:56:35.352] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 20:56:35.352] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 20:56:35.352] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': [{'type': 'text', 'text': '用户指令属于【导航控制域】，以下是该域所有可用意图：\n\n- NavigationSearchPoi：搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配\n- NavigationSearchCharging：搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选\n- NavigationSetRoutePrefer：设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）\n- NavigationCancelRoutePrefer：取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑\n- NavigationOpenMode：开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）\n- NavigationCloseMode：关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）\n- NavigationSearchCustomName：搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航\n- NavigationSetMapMode：设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小\n- NavigationSetCustomName：设置导航常用地点（如家、公司）的地址信息，完成预设地点录入\n- NavigationSetDestination：添加或修改导航途经点，支持多途经点顺序调整\n- NavigationSearchOnwayPoi：搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）\n- NavigationInfoLocation：查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）\n- NavigationQueryInfo：查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）\n- NavigationChargingUnlock：解锁导航推荐充电站的地锁\n- NavigationTrafficInfo：查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）\n- NavigationUpdateRoute：更新当前导航路线（如因实时路况变化、临时管制重新规划路线）\n- NavigationSearchMultiPoi：同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）\n- NavigationRouteChoose：根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线\n- NavigationWatchLocation：查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）\n- GeneralExit：退出当前导航，停止路线引导、语音播报等所有导航相关功能\n- NavigationExit：退出当前导航，停止路线引导、语音播报等所有导航相关功能\n- NavigationPoiSelect：在多个匹配的兴趣点（POI）结果中确认选择目标地点\n- NavigationRouteSelect：在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能\n- NavigationDeleteWaypoints：删除已添加的导航途经点，支持单个或批量删除\n- NavigationServiceInfo：查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）\n- NavigationPoiInfo：无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）\n- NavigationLightInfo：查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）\n- NavigationGetInfo：导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）\n- NavigationPoiPicks：导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点\n- NavigationTripPlanner：导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序\n- PhoneNavigation：手机-车辆导航同步\n\n用户指令：导航去南极洲\n请从以上意图中选择最匹配的一个，请一步步思考并输出思考过程，最终输出格式：<think>思考过程</think><answer>ASR结果|意图名称</answer>'}]}]
+[2026-04-27 20:56:36.250] [INFO] [agent_system] Inference success, response length: 432
+[2026-04-27 20:56:36.250] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+1. 用户输入为“导航去南极洲”，这是一个明确的导航目的地请求。
+2. 分析意图列表，发现意图 NavigationSearchPoi（搜索导航目的地）支持按名称、地址、分类等多维度匹配兴趣点（POI），适用于用户输入具体地点名称如“南极洲”进行导航搜索。
+3. “南极洲”是一个地理区域而非传统城市或建筑，但作为兴趣点（POI）存在，系统可识别其为全球性地理实体，因此可通过名称匹配实现导航搜索。
+4. 其他意图如 Charging、RoutePreference、MapMode 等均不适用于直接发起前往某地的导航行为。
+5. 用户未提及途经点、偏好设置、充电站、路线选择等额外需求，因此无需使用复杂意图如 TripPlanner 或 RouteChoose。
+6. 最终判断最匹配意图是 NavigationSearchPoi，用于搜索并引导至指定兴趣点。
+
+<answer>ASR结果|NavigationSearchPoi</answer>
+[2026-04-27 20:56:36.250] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 思考过程：
+
+1. 用户输入为“导航去南极洲”，这是一个明确的导航目的地请求。
+2. 分析意图列表，发现意图 NavigationSearchPoi（搜索导航目的地）支持按名称、地址、分类等多维度匹配兴趣点（POI），适用于用户输入具体地点名称如“南极洲”进行导航搜索。
+3. “南极洲”是一个地理区域而非传统城市或建筑，但作为兴趣点（POI）存在，系统可识别其为全球性地理实体，因此可通过名称匹配实现导航搜索。
+4. 其他意图如 Charging、RoutePreference、MapMode 等均不适用于直接发起前往某地的导航行为。
+5. 用户未提及途经点、偏好设置、充电站、路线选择等额外需求，因此无需使用复杂意图如 TripPlanner 或 RouteChoose。
+6. 最终判断最匹配意图是 NavigationSearchPoi，用于搜索并引导至指定兴趣点。
+
+ASR结果
+[2026-04-27 20:56:36.250] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 20:56:36.250] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 20:56:45.056] [INFO] [agent_system] Handling query: 选择第二个...
+[2026-04-27 20:56:45.056] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': [{'type': 'text', 'text': '你是车机语音语义理解助手。请根据用户指令判断属于以下哪个功能域。请你一步步思考后，输出思考过程，再按<domain>域名</domain>的格式输出。\n\n- 【导航控制域】：导航相关：搜索目的地、充电站、路线偏好、地图模式、途经点、路况、位置查询、退出导航等\n- 【车窗控制域】：车窗、天窗、遮阳帘、天幕的开关和调节\n- 【声音控制域】：车内外声音、音量、声浪、音效的开关和调节\n- 【座椅控制域】：座椅加热、通风、按摩、位置调节等功能的开关和设置\n- 【空调控制域】：空调制冷、制热、风量、吹风模式、温度调节等\n- 【车辆控制综合域】：驾驶模式、动力模式、悬架、车灯、后视镜、充电口、门窗等车辆综合控制\n- 【信息查询域】：车辆状态、系统设置、空调信息等查询\n- 【电话与消息域】：电话拨打、接听、消息发送等通讯功能\n- 【应用与界面域】：应用打开关闭、界面控制、屏幕镜像等\n- 【视频与媒体域】：音乐、视频、电台播放控制及搜索\n- 【百科与知识问答域】：股票、天气、计算、翻译、百科知识等问答\n- 【闲聊与生成域】：日常闲聊、故事生成、文生图等AIGC功能\n- 【天气与实用工具域】：天气查询及实用工具\n- 【摄像头与泊车域】：摄像头控制及自动泊车功能\n- 【驾驶辅助域】：驾驶辅助相关设置\n- 【屏幕控制】：屏幕分屏、全屏、扩大缩小等控制\n- 【噪声动作域】：无法匹配任何功能点的异常指令\n\n用户指令：选择第二个\n必须注意：如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。'}]}]
+[2026-04-27 20:56:45.908] [INFO] [agent_system] Inference success, response length: 340
+[2026-04-27 20:56:45.908] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：
+
+用户指令为“选择第二个”，这是一个典型的序号类指令，通常用于从多个选项中选择某个特定项。然而，该指令本身缺乏上下文支持，没有明确的选项列表或操作对象。例如，若用户之前提到“播放列表中有三个歌曲，请选择第二个”，则该指令可归属为【视频与媒体域】或【应用与界面域】等具体功能域。
+
+但在当前情况下，用户仅发出“选择第二个”这一孤立指令，未提供任何上下文信息，无法判断其意图指向哪个具体功能点。因此，该指令属于无法匹配任何功能点的异常指令。
+
+根据规则：“如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。”由于此处无上下文，无法合理推断其意图，故应归类为无法识别的异常指令。
+
+<domain>噪声动作域</domain>
+[2026-04-27 20:56:45.908] [INFO] [agent_system] Stage 1 - Domain: 应用与界面域
+[2026-04-27 20:56:45.908] [INFO] [agent_system] Domain '应用与界面域' skills for stage 2 prompt:
+[2026-04-27 20:56:45.908] [INFO] [agent_system]   - AppOpen: 打开指定应用（支持分屏控制、主驾打开、副驾打开、XPAD打开、后排打开、全屏显示、放大显示）
+[2026-04-27 20:56:45.908] [INFO] [agent_system]   - AppClose: 关闭指定应用（支持主驾关闭、XPAD关闭、分屏关闭）
+[2026-04-27 20:56:45.908] [INFO] [agent_system]   - AppDownload: 查询并下载指定应用（支持主驾专属下载）
+[2026-04-27 20:56:45.908] [INFO] [agent_system]   - ScreenPageOpen: 快速打开车载系统各功能页面
+[2026-04-27 20:56:45.908] [INFO] [agent_system]   - MirrorSelect: 屏幕镜像模式控制
+[2026-04-27 20:56:45.908] [INFO] [agent_system]   - ScreenExecute: 当语音指令命中车载屏幕上单个可见控件时，自动执行该控件对应的操作（如点击、切换、确认）
+[2026-04-27 20:56:45.908] [INFO] [agent_system]   - SceenMultiMatchConfirm: 当语音指令同时命中屏幕上多个相似控件时，主动向用户澄清，获取明确选择后再执行操作
+[2026-04-27 20:56:45.908] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': ''}, {'role': 'assistant', 'content': ''}, {'role': 'user', 'content': [{'type': 'text', 'text': '用户指令属于【应用与界面域】，以下是该域所有可用意图：\n\n- AppOpen：打开指定应用（支持分屏控制、主驾打开、副驾打开、XPAD打开、后排打开、全屏显示、放大显示）\n- AppClose：关闭指定应用（支持主驾关闭、XPAD关闭、分屏关闭）\n- AppDownload：查询并下载指定应用（支持主驾专属下载）\n- ScreenPageOpen：快速打开车载系统各功能页面\n- MirrorSelect：屏幕镜像模式控制\n- ScreenExecute：当语音指令命中车载屏幕上单个可见控件时，自动执行该控件对应的操作（如点击、切换、确认）\n- SceenMultiMatchConfirm：当语音指令同时命中屏幕上多个相似控件时，主动向用户澄清，获取明确选择后再执行操作\n\n用户指令：选择第二个\n请从以上意图中选择最匹配的一个，请一步步思考并输出思考过程，最终输出格式：<think>思考过程</think><answer>ASR结果|意图名称</answer>'}]}]
+[2026-04-27 20:56:47.015] [INFO] [agent_system] Inference success, response length: 555
+[2026-04-27 20:56:47.015] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+用户指令为“选择第二个”，这是一个典型的模糊指令，缺乏明确的对象或上下文。在车载语音交互场景中，此类指令通常出现在用户面对多个相似选项时，希望选择其中的第二个选项。
+
+结合可用意图分析：
+
+- AppOpen/AppClose/AppDownload：均涉及应用操作，与“选择第二个”无直接关联；
+- ScreenPageOpen：用于打开页面，不匹配；
+- MirrorSelect：控制镜像模式，无关；
+- ScreenExecute：适用于点击屏幕上可见控件，但需明确控件；
+- SceenMultiMatchConfirm：用于当语音命中多个相似控件时，主动澄清用户意图。
+
+关键点在于“选择第二个”往往是在用户面临多个相似按钮或列表项时，系统无法自动判断哪个是用户想要的，因此需要用户进一步确认。例如，用户说“选择第二个”，系统识别到两个按钮都符合“播放”语义，于是触发 SceenMultiMatchConfirm 意图，等待用户确认。
+
+因此，该指令最合理意图是 SceenMultiMatchConfirm，表示系统检测到多匹配项，用户试图通过“第二个”来指定，但需确认。
+
+最终判断：
+
+<answer>ASR结果|SceenMultiMatchConfirm</answer>
+[2026-04-27 20:56:47.015] [INFO] [agent_system] Parsed intent: SceenMultiMatchConfirm, ASR: 思考过程：
+
+用户指令为“选择第二个”，这是一个典型的模糊指令，缺乏明确的对象或上下文。在车载语音交互场景中，此类指令通常出现在用户面对多个相似选项时，希望选择其中的第二个选项。
+
+结合可用意图分析：
+
+- AppOpen/AppClose/AppDownload：均涉及应用操作，与“选择第二个”无直接关联；
+- ScreenPageOpen：用于打开页面，不匹配；
+- MirrorSelect：控制镜像模式，无关；
+- ScreenExecute：适用于点击屏幕上可见控件，但需明确控件；
+- SceenMultiMatchConfirm：用于当语音命中多个相似控件时，主动澄清用户意图。
+
+关键点在于“选择第二个”往往是在用户面临多个相似按钮或列表项时，系统无法自动判断哪个是用户想要的，因此需要用户进一步确认。例如，用户说“选择第二个”，系统识别到两个按钮都符合“播放”语义，于是触发 SceenMultiMatchConfirm 意图，等待用户确认。
+
+因此，该指令最合理意图是 SceenMultiMatchConfirm，表示系统检测到多匹配项，用户试图通过“第二个”来指定，但需确认。
+
+最终判断：
+
+ASR结果
+[2026-04-27 20:56:47.015] [WARNING] [agent_system] No tool registered for intent: SceenMultiMatchConfirm
+[2026-04-27 20:56:47.015] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 21:01:07.937] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 21:01:07.938] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 21:01:07.938] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 21:01:15.936] [INFO] [agent_system] Handling query: 导航去释迦传...
+[2026-04-27 21:01:15.936] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': [{'type': 'text', 'text': '你是车机语音语义理解助手。请根据用户指令判断属于以下哪个功能域。请你一步步思考后，输出思考过程，再按<domain>域名</domain>的格式输出。\n\n- 【导航控制域】：导航相关：搜索目的地、充电站、路线偏好、地图模式、途经点、路况、位置查询、退出导航等\n- 【车窗控制域】：车窗、天窗、遮阳帘、天幕的开关和调节\n- 【声音控制域】：车内外声音、音量、声浪、音效的开关和调节\n- 【座椅控制域】：座椅加热、通风、按摩、位置调节等功能的开关和设置\n- 【空调控制域】：空调制冷、制热、风量、吹风模式、温度调节等\n- 【车辆控制综合域】：驾驶模式、动力模式、悬架、车灯、后视镜、充电口、门窗等车辆综合控制\n- 【信息查询域】：车辆状态、系统设置、空调信息等查询\n- 【电话与消息域】：电话拨打、接听、消息发送等通讯功能\n- 【应用与界面域】：应用打开关闭、界面控制、屏幕镜像等\n- 【视频与媒体域】：音乐、视频、电台播放控制及搜索\n- 【百科与知识问答域】：股票、天气、计算、翻译、百科知识等问答\n- 【闲聊与生成域】：日常闲聊、故事生成、文生图等AIGC功能\n- 【天气与实用工具域】：天气查询及实用工具\n- 【摄像头与泊车域】：摄像头控制及自动泊车功能\n- 【驾驶辅助域】：驾驶辅助相关设置\n- 【屏幕控制】：屏幕分屏、全屏、扩大缩小等控制\n- 【噪声动作域】：无法匹配任何功能点的异常指令\n\n用户指令：导航去释迦传\n必须注意：如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。'}]}]
+[2026-04-27 21:01:16.621] [INFO] [agent_system] Inference success, response length: 247
+[2026-04-27 21:01:16.621] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：
+
+1. 用户指令为“导航去释迦传”。
+2. 分析关键词：“导航”表示与导航功能相关，“去”表示目的地，“释迦传”是一个地点名称。
+3. 此句意图是发起一次导航任务，目的地为“释迦传”，属于典型的导航控制域操作。
+4. 符合【导航控制域】定义中的“搜索目的地”、“路线偏好”、“退出导航”等子功能点。
+5. 并非涉及车窗、空调、座椅等其他功能域。
+6. 不属于闲聊、百科、电话等非控制类功能。
+7. 因此，该指令应归类为【导航控制域】。
+
+<domain>导航控制域</domain>
+[2026-04-27 21:01:16.621] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 21:01:16.621] [INFO] [agent_system] Domain '导航控制域' skills for stage 2 prompt:
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSearchPoi: 搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSearchCharging: 搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSetRoutePrefer: 设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationCancelRoutePrefer: 取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationOpenMode: 开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationCloseMode: 关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSearchCustomName: 搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSetMapMode: 设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSetCustomName: 设置导航常用地点（如家、公司）的地址信息，完成预设地点录入
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSetDestination: 添加或修改导航途经点，支持多途经点顺序调整
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSearchOnwayPoi: 搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationInfoLocation: 查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationQueryInfo: 查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationChargingUnlock: 解锁导航推荐充电站的地锁
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationTrafficInfo: 查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationUpdateRoute: 更新当前导航路线（如因实时路况变化、临时管制重新规划路线）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationSearchMultiPoi: 同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationRouteChoose: 根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationWatchLocation: 查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - GeneralExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationExit: 退出当前导航，停止路线引导、语音播报等所有导航相关功能
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationPoiSelect: 在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationRouteSelect: 在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationDeleteWaypoints: 删除已添加的导航途经点，支持单个或批量删除
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationServiceInfo: 查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationPoiInfo: 无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationLightInfo: 查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationGetInfo: 导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationPoiPicks: 导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - NavigationTripPlanner: 导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序
+[2026-04-27 21:01:16.621] [INFO] [agent_system]   - PhoneNavigation: 手机-车辆导航同步
+[2026-04-27 21:01:16.622] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': [{'type': 'text', 'text': '用户指令属于【导航控制域】，以下是该域所有可用意图：\n\n- NavigationSearchPoi：搜索导航目的地（兴趣点），支持按名称、地址、分类（如餐厅、酒店、景点）多维度匹配\n- NavigationSearchCharging：搜索目的地或导航沿途的充电站，支持按距离、充电类型（快充/慢充）筛选\n- NavigationSetRoutePrefer：设置或切换导航路线偏好（如高速优先、避开拥堵、避开收费、省电优先、红绿灯少）\n- NavigationCancelRoutePrefer：取消已设置的导航路线偏好，恢复系统默认的路线规划逻辑\n- NavigationOpenMode：开启导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）\n- NavigationCloseMode：关闭导航的特定功能模式（如语音播报、实时路况显示、电子狗提醒、静音模式）\n- NavigationSearchCustomName：搜索导航预设的常用地点（如家、公司、学校），快速调用预设地址发起导航\n- NavigationSetMapMode：设置导航地图的显示模式（如日间/夜间模式、2D/3D视图）或比例尺大小\n- NavigationSetCustomName：设置导航常用地点（如家、公司）的地址信息，完成预设地点录入\n- NavigationSetDestination：添加或修改导航途经点，支持多途经点顺序调整\n- NavigationSearchOnwayPoi：搜索当前导航路线沿途的兴趣点（如加油站、餐厅、服务区、卫生间）\n- NavigationInfoLocation：查询当前车辆在导航中的实时位置信息（如所在道路、经纬度、周边地标）\n- NavigationQueryInfo：查询导航核心信息（如目的地剩余距离、预计到达时间、当前路线名称、剩余里程）\n- NavigationChargingUnlock：解锁导航推荐充电站的地锁\n- NavigationTrafficInfo：查询导航路线前方的实时路况信息（如拥堵等级、事故预警、施工路段、封路通知）\n- NavigationUpdateRoute：更新当前导航路线（如因实时路况变化、临时管制重新规划路线）\n- NavigationSearchMultiPoi：同时搜索多个兴趣点（POI），支持多地点对比筛选（如不同商场、酒店、景点）\n- NavigationRouteChoose：根据路线标签（如红绿灯少、耗时短、省电、高速优先）选择推荐导航路线\n- NavigationWatchLocation：查询与车辆关联的儿童手表实时位置信息（需提前绑定设备）\n- GeneralExit：退出当前导航，停止路线引导、语音播报等所有导航相关功能\n- NavigationExit：退出当前导航，停止路线引导、语音播报等所有导航相关功能\n- NavigationPoiSelect：在多个匹配的兴趣点（POI）结果中确认选择目标地点\n- NavigationRouteSelect：在系统推荐的多条导航路线中确认选择目标路线，启动该路线的实时引导功能\n- NavigationDeleteWaypoints：删除已添加的导航途经点，支持单个或批量删除\n- NavigationServiceInfo：查询导航沿途服务区信息（如距离、停车位数量、是否有充电桩、餐饮设施）\n- NavigationPoiInfo：无导航路线时查询兴趣点（POI）相关信息（如两地距离、地点属性、周边设施）\n- NavigationLightInfo：查询导航路线中前方红绿灯相关信息（如红绿灯数量、距离、倒计时）\n- NavigationGetInfo：导航Agent核心API，获取导航相关信息（如当前路线进度、预计到达时间、车辆定位状态）\n- NavigationPoiPicks：导航Agent核心API，在多个匹配的兴趣点（POI）结果中确认选择目标地点\n- NavigationTripPlanner：导航Agent核心API，规划复杂行程（如多目的地、多途经点路线），支持自定义行程顺序\n- PhoneNavigation：手机-车辆导航同步\n\n用户指令：导航去释迦传\n请从以上意图中选择最匹配的一个，请一步步思考并输出思考过程，最终输出格式：<think>思考过程</think><answer>ASR结果|意图名称</answer>'}]}]
+[2026-04-27 21:01:17.550] [INFO] [agent_system] Inference success, response length: 405
+[2026-04-27 21:01:17.551] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+1. 用户指令为“导航去释迦传”，其中“导航去”表明用户希望启动导航功能，并前往某个目的地。
+2. “释迦传”是一个具体的地点名称，可能是兴趣点（POI），例如寺庙、景区或其他地标性建筑。
+3. 根据可用意图列表，最符合该场景的是“NavigationSearchPoi”，因为该意图支持按名称搜索兴趣点（POI），而“释迦传”正是一个可能存在的兴趣点名称。
+4. 其他意图如“NavigationSearchCustomName”用于预设地点（如家、公司），不符合“释迦传”这种临时搜索需求；“NavigationSetDestination”用于添加途经点，而非直接发起导航至某地。
+5. 因此，用户意图应为通过名称搜索兴趣点并启动导航。
+
+最终判断：用户意图是搜索名为“释迦传”的兴趣点作为导航目的地。
+
+<answer>ASR结果|NavigationSearchPoi</answer>
+[2026-04-27 21:01:17.552] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 思考过程：
+
+1. 用户指令为“导航去释迦传”，其中“导航去”表明用户希望启动导航功能，并前往某个目的地。
+2. “释迦传”是一个具体的地点名称，可能是兴趣点（POI），例如寺庙、景区或其他地标性建筑。
+3. 根据可用意图列表，最符合该场景的是“NavigationSearchPoi”，因为该意图支持按名称搜索兴趣点（POI），而“释迦传”正是一个可能存在的兴趣点名称。
+4. 其他意图如“NavigationSearchCustomName”用于预设地点（如家、公司），不符合“释迦传”这种临时搜索需求；“NavigationSetDestination”用于添加途经点，而非直接发起导航至某地。
+5. 因此，用户意图应为通过名称搜索兴趣点并启动导航。
+
+最终判断：用户意图是搜索名为“释迦传”的兴趣点作为导航目的地。
+
+ASR结果
+[2026-04-27 21:01:17.552] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 21:01:17.552] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 21:01:39.386] [INFO] [agent_system] Handling query: 选择第一个...
+[2026-04-27 21:01:39.386] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': [{'type': 'text', 'text': '你是车机语音语义理解助手。请根据用户指令判断属于以下哪个功能域。请你一步步思考后，输出思考过程，再按<domain>域名</domain>的格式输出。\n\n- 【导航控制域】：导航相关：搜索目的地、充电站、路线偏好、地图模式、途经点、路况、位置查询、退出导航等\n- 【车窗控制域】：车窗、天窗、遮阳帘、天幕的开关和调节\n- 【声音控制域】：车内外声音、音量、声浪、音效的开关和调节\n- 【座椅控制域】：座椅加热、通风、按摩、位置调节等功能的开关和设置\n- 【空调控制域】：空调制冷、制热、风量、吹风模式、温度调节等\n- 【车辆控制综合域】：驾驶模式、动力模式、悬架、车灯、后视镜、充电口、门窗等车辆综合控制\n- 【信息查询域】：车辆状态、系统设置、空调信息等查询\n- 【电话与消息域】：电话拨打、接听、消息发送等通讯功能\n- 【应用与界面域】：应用打开关闭、界面控制、屏幕镜像等\n- 【视频与媒体域】：音乐、视频、电台播放控制及搜索\n- 【百科与知识问答域】：股票、天气、计算、翻译、百科知识等问答\n- 【闲聊与生成域】：日常闲聊、故事生成、文生图等AIGC功能\n- 【天气与实用工具域】：天气查询及实用工具\n- 【摄像头与泊车域】：摄像头控制及自动泊车功能\n- 【驾驶辅助域】：驾驶辅助相关设置\n- 【屏幕控制】：屏幕分屏、全屏、扩大缩小等控制\n- 【噪声动作域】：无法匹配任何功能点的异常指令\n\n用户指令：选择第一个\n必须注意：如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。'}]}]
+[2026-04-27 21:01:40.179] [INFO] [agent_system] Inference success, response length: 320
+[2026-04-27 21:01:40.179] [INFO] [agent_system] Stage 1 - Raw output: 思考过程：
+
+用户指令为“选择第一个”，这是一个典型的序数词指令，通常用于从多个选项中选择第一个项目。然而，该指令本身缺乏上下文，没有明确的选项列表或操作对象。例如，它可能是对搜索结果、联系人列表、音乐播放列表等的响应。
+
+在当前语境下，用户并未提供任何上下文信息，如“播放列表中的第一个歌曲”、“联系人列表中的第一个联系人”等。因此，该指令无法明确指向任何具体功能域的操作对象。
+
+根据规则：“如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。” 此处无上文对话内容支持，因此无法判断其意图。
+
+因此，该指令属于无法匹配任何功能点的异常指令。
+
+<domain>噪声动作域</domain>
+[2026-04-27 21:01:40.179] [INFO] [agent_system] Stage 1 - Domain: 噪声动作域
+[2026-04-27 21:01:40.179] [INFO] [agent_system] Domain '噪声动作域' skills for stage 2 prompt:
+[2026-04-27 21:01:40.179] [INFO] [agent_system]   - NoiseAction: 不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合。如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。
+[2026-04-27 21:01:40.179] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': [{'type': 'text', 'text': '用户指令属于【噪声动作域】，以下是该域所有可用意图：\n\n- NoiseAction：不属于智能座舱支持的技能领域，无法匹配任何功能点；语义表达异常导致理解困难；指令搭配不合理；单实体+完整query的低频组合。如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。\n\n用户指令：选择第一个\n请从以上意图中选择最匹配的一个，请一步步思考并输出思考过程，最终输出格式：<think>思考过程</think><answer>ASR结果|意图名称</answer>'}]}]
+[2026-04-27 21:01:41.024] [INFO] [agent_system] Inference success, response length: 349
+[2026-04-27 21:01:41.024] [INFO] [agent_system] Stage 2 - Raw output: 思考过程：
+
+1. 分析用户指令：“选择第一个”。
+2. 该指令是一个不完整的query，缺少上下文信息。例如，“选择第一个”通常需要搭配具体的对象，如“选择第一个音乐”、“选择第一个联系人”等，否则无法明确其意图。
+3. 根据【噪声动作域】的定义，当指令为“第XX个”、“第XX条”等表述时，若缺乏上下文支持，不能随意判断其意图，应视为语义表达异常或理解困难。
+4. 此处用户仅说“选择第一个”，未提供任何上下文或具体对象，因此无法匹配到任何具体的智能座舱功能点。
+5. 符合NoiseAction的判定条件：单实体+完整query的低频组合，且语义表达不完整，导致理解困难。
+
+因此，该指令应归类为NoiseAction。
+
+<answer>ASR结果|NoiseAction</answer>
+[2026-04-27 21:01:41.024] [INFO] [agent_system] Parsed intent: NoiseAction, ASR: 思考过程：
+
+1. 分析用户指令：“选择第一个”。
+2. 该指令是一个不完整的query，缺少上下文信息。例如，“选择第一个”通常需要搭配具体的对象，如“选择第一个音乐”、“选择第一个联系人”等，否则无法明确其意图。
+3. 根据【噪声动作域】的定义，当指令为“第XX个”、“第XX条”等表述时，若缺乏上下文支持，不能随意判断其意图，应视为语义表达异常或理解困难。
+4. 此处用户仅说“选择第一个”，未提供任何上下文或具体对象，因此无法匹配到任何具体的智能座舱功能点。
+5. 符合NoiseAction的判定条件：单实体+完整query的低频组合，且语义表达不完整，导致理解困难。
+
+因此，该指令应归类为NoiseAction。
+
+ASR结果
+[2026-04-27 21:01:41.024] [WARNING] [agent_system] No tool registered for intent: NoiseAction
+[2026-04-27 21:01:41.024] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 21:03:45.497] [INFO] [agent_system] Handling query: ‘’[D...
+[2026-04-27 21:03:45.498] [INFO] [agent_system] messages for inference: [{'role': 'user', 'content': [{'type': 'text', 'text': '你是车机语音语义理解助手。请根据用户指令判断属于以下哪个功能域。请你一步步思考后，输出思考过程，再按<domain>域名</domain>的格式输出。\n\n- 【导航控制域】：导航相关：搜索目的地、充电站、路线偏好、地图模式、途经点、路况、位置查询、退出导航等\n- 【车窗控制域】：车窗、天窗、遮阳帘、天幕的开关和调节\n- 【声音控制域】：车内外声音、音量、声浪、音效的开关和调节\n- 【座椅控制域】：座椅加热、通风、按摩、位置调节等功能的开关和设置\n- 【空调控制域】：空调制冷、制热、风量、吹风模式、温度调节等\n- 【车辆控制综合域】：驾驶模式、动力模式、悬架、车灯、后视镜、充电口、门窗等车辆综合控制\n- 【信息查询域】：车辆状态、系统设置、空调信息等查询\n- 【电话与消息域】：电话拨打、接听、消息发送等通讯功能\n- 【应用与界面域】：应用打开关闭、界面控制、屏幕镜像等\n- 【视频与媒体域】：音乐、视频、电台播放控制及搜索\n- 【百科与知识问答域】：股票、天气、计算、翻译、百科知识等问答\n- 【闲聊与生成域】：日常闲聊、故事生成、文生图等AIGC功能\n- 【天气与实用工具域】：天气查询及实用工具\n- 【摄像头与泊车域】：摄像头控制及自动泊车功能\n- 【驾驶辅助域】：驾驶辅助相关设置\n- 【屏幕控制】：屏幕分屏、全屏、扩大缩小等控制\n- 【噪声动作域】：无法匹配任何功能点的异常指令\n\n用户指令：‘’\x1b[D\n必须注意：如果指令为‘第XX个’、‘第XX条’等表述，需要结合上文对话内容进行判断，不能随意当做噪声动作域。'}]}]
