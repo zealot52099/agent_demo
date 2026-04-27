@@ -1,0 +1,24 @@
+[2026-04-27 14:10:23.294] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 14:10:23.295] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 14:10:23.295] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 14:10:23.295] [INFO] [agent_system] Handling query: ?????????...
+[2026-04-27 14:10:23.296] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 14:10:23.296] [INFO] [agent_system] Stage 2 - Raw output: ?????????|NavigationSearchPoi
+[2026-04-27 14:10:23.296] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: ?????????
+[2026-04-27 14:10:23.296] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 14:10:23.296] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 14:20:57.112] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 14:20:57.113] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 14:20:57.113] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 14:20:57.113] [INFO] [agent_system] Handling query: ????...
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Stage 2 - Raw output: ????|NavigationSearchPoi
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: ????
+[2026-04-27 14:20:57.114] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Handling query: ??...
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Stage 2 - Raw output: ??|NavigationSearchPoi
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: ??
+[2026-04-27 14:20:57.114] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 14:20:57.114] [INFO] [agent_system] Tool execution: failed

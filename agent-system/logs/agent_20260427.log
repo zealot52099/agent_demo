@@ -1,0 +1,162 @@
+[2026-04-27 11:06:52.676] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 11:06:52.676] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 11:06:52.678] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 11:06:52.678] [INFO] [agent_system] Memory cleared
+[2026-04-27 11:06:52.678] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 11:06:52.797] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 11:06:52.802] [INFO] [agent_system] Created task ba27b983: NavigationSearchPoi
+[2026-04-27 11:06:52.804] [INFO] [agent_system] Created task f3fa3039: SeatOpen
+[2026-04-27 11:06:52.804] [INFO] [agent_system] Created task 6135df6b: NavigationSearchPoi
+[2026-04-27 11:06:52.804] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 11:08:51.857] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 11:08:51.858] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 11:08:51.860] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 11:08:51.860] [INFO] [agent_system] Memory cleared
+[2026-04-27 11:08:51.860] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 11:08:51.862] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 11:08:51.951] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 11:08:51.953] [INFO] [agent_system] Created task 21b9ace8: NavigationSearchPoi
+[2026-04-27 11:08:51.955] [INFO] [agent_system] Created task ff6ee96c: SeatOpen
+[2026-04-27 11:08:51.955] [INFO] [agent_system] Created task 0306fe2c: NavigationSearchPoi
+[2026-04-27 11:08:51.955] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 11:10:46.701] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 11:10:46.702] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 11:10:46.705] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 11:10:46.705] [INFO] [agent_system] Memory cleared
+[2026-04-27 11:10:46.706] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 11:10:46.710] [INFO] [agent_system] Searching POI: 加油站, type: None
+[2026-04-27 11:10:46.711] [INFO] [agent_system] Executed tool NavigationSearchPoi, result: {'action': 'search_poi', 'poi_name': '加油站', 'poi_type': None, 'status': 'executed'}
+[2026-04-27 11:10:46.713] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 11:10:46.716] [INFO] [agent_system] Created task b9d5b494: NavigationSearchPoi
+[2026-04-27 11:10:46.719] [INFO] [agent_system] Created task 33363eb8: SeatOpen
+[2026-04-27 11:10:46.719] [INFO] [agent_system] Created task c73c6596: NavigationSearchPoi
+[2026-04-27 11:10:46.719] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 11:11:10.851] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 11:11:10.851] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 11:11:10.853] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 11:11:10.853] [INFO] [agent_system] Memory cleared
+[2026-04-27 11:11:10.853] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 11:11:10.855] [INFO] [agent_system] Searching POI: 加油站, type: None
+[2026-04-27 11:11:10.855] [INFO] [agent_system] Executed tool NavigationSearchPoi, result: {'action': 'search_poi', 'poi_name': '加油站', 'poi_type': None, 'status': 'executed'}
+[2026-04-27 11:11:10.856] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 11:11:10.859] [INFO] [agent_system] Created task e4bcf84f: NavigationSearchPoi
+[2026-04-27 11:11:10.862] [INFO] [agent_system] Created task 2745b90e: SeatOpen
+[2026-04-27 11:11:10.862] [INFO] [agent_system] Created task ed1b6e32: NavigationSearchPoi
+[2026-04-27 11:11:10.862] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 11:11:39.320] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 11:11:39.321] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 11:11:39.322] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 11:11:39.322] [INFO] [agent_system] Memory cleared
+[2026-04-27 11:11:39.322] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 11:11:39.324] [INFO] [agent_system] Searching POI: 加油站, type: None
+[2026-04-27 11:11:39.324] [INFO] [agent_system] Executed tool NavigationSearchPoi, result: {'action': 'search_poi', 'poi_name': '加油站', 'poi_type': None, 'status': 'executed'}
+[2026-04-27 11:11:39.327] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 11:11:39.329] [INFO] [agent_system] Created task e1f2d995: NavigationSearchPoi
+[2026-04-27 11:11:39.332] [INFO] [agent_system] Created task 21fe48a4: SeatOpen
+[2026-04-27 11:11:39.332] [INFO] [agent_system] Created task 04d07a02: NavigationSearchPoi
+[2026-04-27 11:11:39.332] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 11:11:39.438] [INFO] [agent_system] Created new memory for session: test
+[2026-04-27 11:11:39.439] [INFO] [agent_system] Handling query: 导航到加油站...
+[2026-04-27 11:11:43.548] [WARNING] [agent_system] Inference request failed (attempt 1): HTTPConnectionPool(host='localhost', port=8901): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8901): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+[2026-04-27 11:11:48.618] [WARNING] [agent_system] Inference request failed (attempt 2): HTTPConnectionPool(host='localhost', port=8901): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8901): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+[2026-04-27 11:11:54.702] [WARNING] [agent_system] Inference request failed (attempt 3): HTTPConnectionPool(host='localhost', port=8901): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8901): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+[2026-04-27 11:11:54.703] [ERROR] [agent_system] Inference failed after 2 retries: HTTPConnectionPool(host='localhost', port=8901): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8901): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+[2026-04-27 11:11:54.703] [WARNING] [agent_system] Real inference failed, falling back to mock
+[2026-04-27 11:11:54.703] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 11:11:58.758] [WARNING] [agent_system] Inference request failed (attempt 1): HTTPConnectionPool(host='localhost', port=8901): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8901): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+[2026-04-27 11:12:03.822] [WARNING] [agent_system] Inference request failed (attempt 2): HTTPConnectionPool(host='localhost', port=8901): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8901): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+[2026-04-27 11:12:09.876] [WARNING] [agent_system] Inference request failed (attempt 3): HTTPConnectionPool(host='localhost', port=8901): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8901): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+[2026-04-27 11:12:09.876] [ERROR] [agent_system] Inference failed after 2 retries: HTTPConnectionPool(host='localhost', port=8901): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='localhost', port=8901): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+[2026-04-27 11:12:09.876] [WARNING] [agent_system] Real inference failed, falling back to mock
+[2026-04-27 11:12:09.876] [INFO] [agent_system] Stage 2 - Raw output: 导航到加油站|NavigationSearchPoi
+[2026-04-27 11:12:09.876] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 导航到加油站
+[2026-04-27 11:40:56.744] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 11:46:39.712] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 11:46:39.712] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 11:46:39.714] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 11:46:39.714] [INFO] [agent_system] Memory cleared
+[2026-04-27 11:46:39.714] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 11:46:39.717] [INFO] [agent_system] Searching POI: 加油站, type: None
+[2026-04-27 11:46:39.718] [INFO] [agent_system] Executed tool NavigationSearchPoi, result: {'action': 'search_poi', 'poi_name': '加油站', 'poi_type': None, 'status': 'executed'}
+[2026-04-27 11:46:39.721] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 11:46:39.724] [INFO] [agent_system] Created task e0ecfc67: NavigationSearchPoi
+[2026-04-27 11:46:39.726] [INFO] [agent_system] Created task ec415a42: SeatOpen
+[2026-04-27 11:46:39.726] [INFO] [agent_system] Created task 734605b6: NavigationSearchPoi
+[2026-04-27 11:46:39.727] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 11:46:39.891] [INFO] [agent_system] Created new memory for session: test
+[2026-04-27 11:46:39.893] [INFO] [agent_system] Handling query: 导航到加油站...
+[2026-04-27 11:46:39.893] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 11:46:39.893] [INFO] [agent_system] Stage 2 - Raw output: 导航到加油站|NavigationSearchPoi
+[2026-04-27 11:46:39.893] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 导航到加油站
+[2026-04-27 11:54:21.528] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 11:54:21.529] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 11:54:21.530] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 11:54:21.530] [INFO] [agent_system] Memory cleared
+[2026-04-27 11:54:21.530] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 11:54:21.534] [INFO] [agent_system] Searching POI: 加油站, type: None
+[2026-04-27 11:54:21.535] [INFO] [agent_system] Executed tool NavigationSearchPoi, result: {'action': 'search_poi', 'poi_name': '加油站', 'poi_type': None, 'status': 'executed'}
+[2026-04-27 11:54:21.537] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 11:54:21.540] [INFO] [agent_system] Created task b0789b35: NavigationSearchPoi
+[2026-04-27 11:54:21.542] [INFO] [agent_system] Created task af8a3381: SeatOpen
+[2026-04-27 11:54:21.542] [INFO] [agent_system] Created task fcc07831: NavigationSearchPoi
+[2026-04-27 11:54:21.542] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 11:54:21.695] [INFO] [agent_system] Created new memory for session: test
+[2026-04-27 11:54:21.699] [INFO] [agent_system] Handling query: 导航到加油站...
+[2026-04-27 11:54:21.699] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 11:54:21.699] [INFO] [agent_system] Stage 2 - Raw output: 导航到加油站|NavigationSearchPoi
+[2026-04-27 11:54:21.700] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 导航到加油站
+[2026-04-27 13:56:35.942] [INFO] [agent_system] Starting Agent System...
+[2026-04-27 13:56:35.943] [INFO] [agent_system] Created new memory for session: cli_session
+[2026-04-27 13:56:35.944] [INFO] [agent_system] Agent initialized successfully
+[2026-04-27 13:56:40.794] [INFO] [agent_system] Handling query: 打开车窗...
+[2026-04-27 13:56:40.816] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 13:56:40.817] [INFO] [agent_system] Stage 2 - Raw output: 打开车窗|NavigationSearchPoi
+[2026-04-27 13:56:40.818] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 打开车窗
+[2026-04-27 13:56:40.819] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 13:56:40.819] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 13:57:14.457] [INFO] [agent_system] Handling query: 导航去天安门...
+[2026-04-27 13:57:14.457] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 13:57:14.457] [INFO] [agent_system] Stage 2 - Raw output: 导航去天安门|NavigationSearchPoi
+[2026-04-27 13:57:14.457] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 导航去天安门
+[2026-04-27 13:57:14.457] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 13:57:14.458] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 13:57:40.307] [INFO] [agent_system] Handling query: 打开座椅按摩...
+[2026-04-27 13:57:40.307] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 13:57:40.307] [INFO] [agent_system] Stage 2 - Raw output: 打开座椅按摩|NavigationSearchPoi
+[2026-04-27 13:57:40.307] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 打开座椅按摩
+[2026-04-27 13:57:40.308] [ERROR] [agent_system] Tool NavigationSearchPoi failed: search_poi() missing 1 required positional argument: 'poi_name'
+[2026-04-27 13:57:40.308] [INFO] [agent_system] Tool execution: failed
+[2026-04-27 14:09:16.357] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 14:09:16.357] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 14:09:16.359] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 14:09:16.359] [INFO] [agent_system] Memory cleared
+[2026-04-27 14:09:16.359] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 14:09:16.361] [INFO] [agent_system] Searching POI: 加油站, type: None
+[2026-04-27 14:09:16.361] [INFO] [agent_system] Executed tool NavigationSearchPoi, result: {'action': 'search_poi', 'poi_name': '加油站', 'poi_type': None, 'status': 'executed'}
+[2026-04-27 14:09:16.363] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 14:09:16.366] [INFO] [agent_system] Created task 56110eea: NavigationSearchPoi
+[2026-04-27 14:09:16.368] [INFO] [agent_system] Created task b283e05d: SeatOpen
+[2026-04-27 14:09:16.369] [INFO] [agent_system] Created task ae0f649b: NavigationSearchPoi
+[2026-04-27 14:09:16.369] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 14:09:16.569] [INFO] [agent_system] Created new memory for session: test
+[2026-04-27 14:09:16.573] [INFO] [agent_system] Handling query: 导航到加油站...
+[2026-04-27 14:09:16.573] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 14:09:16.573] [INFO] [agent_system] Stage 2 - Raw output: 导航到加油站|NavigationSearchPoi
+[2026-04-27 14:09:16.574] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 导航到加油站
+[2026-04-27 14:20:32.628] [INFO] [agent_system] Created new memory for session: session1
+[2026-04-27 14:20:32.629] [INFO] [agent_system] Created new memory for session: session2
+[2026-04-27 14:20:32.633] [INFO] [agent_system] Created new memory for session: test_session
+[2026-04-27 14:20:32.633] [INFO] [agent_system] Memory cleared
+[2026-04-27 14:20:32.634] [INFO] [agent_system] Cleared memory for session: test_session
+[2026-04-27 14:20:32.637] [INFO] [agent_system] Searching POI: 加油站, type: None
+[2026-04-27 14:20:32.637] [INFO] [agent_system] Executed tool NavigationSearchPoi, result: {'action': 'search_poi', 'poi_name': '加油站', 'poi_type': None, 'status': 'executed'}
+[2026-04-27 14:20:32.641] [WARNING] [agent_system] No tool registered for intent: UnknownTool
+[2026-04-27 14:20:32.647] [INFO] [agent_system] Created task b6c25d97: NavigationSearchPoi
+[2026-04-27 14:20:32.651] [INFO] [agent_system] Created task da88b538: SeatOpen
+[2026-04-27 14:20:32.652] [INFO] [agent_system] Created task 5bd3b431: NavigationSearchPoi
+[2026-04-27 14:20:32.652] [INFO] [agent_system] Planned 2 tasks
+[2026-04-27 14:20:32.819] [INFO] [agent_system] Created new memory for session: test
+[2026-04-27 14:20:32.821] [INFO] [agent_system] Handling query: 导航到加油站...
+[2026-04-27 14:20:32.822] [INFO] [agent_system] Stage 1 - Domain: 导航控制域
+[2026-04-27 14:20:32.822] [INFO] [agent_system] Stage 2 - Raw output: 导航到加油站|NavigationSearchPoi
+[2026-04-27 14:20:32.822] [INFO] [agent_system] Parsed intent: NavigationSearchPoi, ASR: 导航到加油站

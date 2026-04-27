@@ -10,7 +10,8 @@ class IntentResult(BaseModel):
     intent: str = Field(..., description="API 意图名称")
     confidence: float = Field(default=1.0, ge=0.0, le=1.0)
     domain: Optional[str] = None
-    raw_output: Optional[str] = None  # 保留原始输出便于调试
+    raw_output: Optional[str] = None
+    metadata: dict = Field(default_factory=dict)
 
     @field_validator("intent")
     @classmethod
