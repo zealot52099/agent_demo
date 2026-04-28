@@ -68,24 +68,9 @@ class Agent:
         self.memory.add_user_message(query)
 
         try:
-            stage1_output = self._stage1_domain_classification(query)
-            domain_name, domain_output = stage1_output["domain"], stage1_output["raw_output"]
-
-            if not domain_name:
-                error_msg = f"无法识别功能域或格式解析失败，原始输出: {domain_output}"
-                logger.error(error_msg)
-                self.memory.add_assistant_message(error_msg)
-                return error_msg if not return_full_result else {"error": error_msg}
-
-            logger.info(f"Stage 1 - Domain: {domain_name}")
-
-            stage2_output = self._stage2_intent_matching(query, domain_name)
-            raw_output = stage2_output["raw_output"]
-            logger.info(f"Stage 2 - Raw output: {raw_output}")
-
-            intent_result = self._parse_intent_result(raw_output, domain_name)
-            # TODO:结果解析
-            # logger.info(f"Parsed intent: {intent_result.intent}, ASR: {intent_result.asr_text}")
+            intent_result, raw_output = self._single_stage_inference(query)
+            logger.info(f"Single stage - Raw output: {raw_output}")
+            logger.info(f"Parsed intent: {intent_result.intent}, domain: {intent_result.domain}")
 
             if should_execute:
                 tool_result = self._execute_intent(intent_result)
@@ -97,7 +82,7 @@ class Agent:
             if return_full_result:
                 return {
                     "response": response,
-                    "domain": domain_name,
+                    "domain": intent_result.domain,
                     "intent": intent_result.intent,
                     "asr_text": intent_result.asr_text,
                     "confidence": intent_result.confidence,
@@ -112,6 +97,48 @@ class Agent:
             logger.error(error_msg)
             self.memory.add_assistant_message(error_msg)
             return error_msg if not return_full_result else {"error": error_msg}
+
+    def _single_stage_inference(self, query: str):
+        """单阶段推理：模型自主决策是否需要域知识"""
+        history = self.memory.get_history_for_inference()
+        prompt = self.domain_classifier.get_single_stage_prompt(query, history)
+        logger.info(f"history for single stage: {history}")
+
+        raw_output = run_inference_with_fallback(prompt)
+
+        intent = self.domain_classifier.match_single_intent(raw_output)
+        if intent:
+            return IntentResult(
+                asr_text=query,
+                intent=intent,
+                confidence=1.0,
+                domain=None,
+                raw_output=raw_output
+            ), raw_output
+
+        need_domain = self.domain_classifier.match_need_domain(raw_output)
+        if need_domain:
+            logger.info(f"Model requests domain knowledge: {need_domain}")
+            prompt2 = self.domain_classifier.get_stage2_prompt(need_domain, query, history)
+            raw_output2 = run_inference_with_fallback(prompt2)
+
+            intent = self.domain_classifier.match_intent_from_domain(raw_output2, need_domain)
+            if intent:
+                return IntentResult(
+                    asr_text=query,
+                    intent=intent,
+                    confidence=1.0,
+                    domain=need_domain,
+                    raw_output=raw_output2
+                ), raw_output2
+
+        return IntentResult(
+            asr_text=query,
+            intent="NoiseAction",
+            confidence=0.0,
+            domain=None,
+            raw_output=raw_output
+        ), raw_output
 
     def _stage1_domain_classification(self, query: str) -> Dict:
         """第一阶段：域分类"""
