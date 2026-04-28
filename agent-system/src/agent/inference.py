@@ -73,22 +73,23 @@ def _real_inference(
     """真实 LLM 推理调用"""
     url = settings.inference_url
     headers = {"Content-Type": "application/json"}
-
+    logger.info(prompt and f"Prompt for inference: {prompt[:50]}..." or "Empty prompt for inference")
     content = [{"type": "text", "text": prompt}]
     if audio_url:
         content.append({"type": "audio_url", "audio_url": {"url": audio_url}})
 
     messages = []
+    logger.info(history and f"History for inference: {history}" or "No history for inference")
+    
+    if content:
+        messages.append({"role": "user", "content": content})
     if history:
         for h in history:
             # logger.info(f"Adding history to inference payload: {h}")
             if isinstance(h, dict):
-                if h.get("query", "") and h.get("response", ""):
-                    messages.append({"role": "user", "content": h.get("query", "")})
-                    messages.append({"role": "assistant", "content": h.get("response", "")})
-    if content:
-        messages.append({"role": "user", "content": content})
-    logger.info(f'messages for inference: {messages}')
+                if h.get("role", "") and h.get("content", ""):
+                    messages.append({"role": h["role"], "content": h["content"]})
+    # logger.info(f'messages for inference###: {messages}')
     payload = {
         "temperature": settings.inference_temperature,
         "seed": settings.inference_seed,
@@ -153,6 +154,28 @@ def run_inference(
     if result is None:
         raise InferenceError("LLM inference failed")
     return result
+
+
+# def run_inference_with_fallback(
+#     prompt: str,
+#     history: Optional[List[Dict]] = None,
+#     audio_url: Optional[str] = None
+# ) -> str:
+#     """
+#     带有降级策略的推理：真实推理失败时自动降级到 Mock
+#     """
+#     if settings.mock_mode:
+#         return _mock_inference(prompt, history)
+
+#     # try:
+#     result = _real_inference(prompt, history, audio_url)
+#     if result:
+#         return result
+#     logger.warning("Real inference failed, falling back to mock")
+#     return _mock_inference(prompt, history)
+#     # except Exception as e:
+#     #     logger.error(f"Real inference error: {e}, falling back to mock")
+#     #     return _mock_inference(prompt, history)
 
 
 def run_inference_with_fallback(

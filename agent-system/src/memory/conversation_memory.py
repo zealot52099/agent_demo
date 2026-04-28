@@ -51,7 +51,15 @@ class ConversationMemory:
         return self.messages.copy()
 
     def get_history_for_inference(self) -> List[Dict[str, str]]:
-        return [{"role": m.role, "content": m.content} for m in self.messages]
+        # return [{"role": m.role, "content": m.content} for m in self.messages]
+        ##先只考虑query和response，后续可以根据需要增加system消息等
+
+        history = []
+        for m in self.messages:
+            if m.role == "user":
+                history.append({"role": "user", "content": m.content})
+        
+        return history
 
     def _trim(self):
         if len(self.messages) > self.max_turns * 2:

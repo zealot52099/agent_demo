@@ -72,7 +72,7 @@ class Agent:
             domain_name, domain_output = stage1_output["domain"], stage1_output["raw_output"]
 
             if not domain_name:
-                error_msg = f"无法识别功能域，原始输出: {domain_output}"
+                error_msg = f"无法识别功能域或格式解析失败，原始输出: {domain_output}"
                 logger.error(error_msg)
                 self.memory.add_assistant_message(error_msg)
                 return error_msg if not return_full_result else {"error": error_msg}
@@ -84,7 +84,8 @@ class Agent:
             logger.info(f"Stage 2 - Raw output: {raw_output}")
 
             intent_result = self._parse_intent_result(raw_output, domain_name)
-            logger.info(f"Parsed intent: {intent_result.intent}, ASR: {intent_result.asr_text}")
+            # TODO:结果解析
+            # logger.info(f"Parsed intent: {intent_result.intent}, ASR: {intent_result.asr_text}")
 
             if should_execute:
                 tool_result = self._execute_intent(intent_result)
@@ -117,11 +118,13 @@ class Agent:
         if not self.domain_classifier:
             return {"domain": "Unknown", "raw_output": "No domain classifier"}
 
-        prompt = self.domain_classifier.get_stage1_prompt(query)
+        
         history = self.memory.get_history_for_inference()
-
+        prompt = self.domain_classifier.get_stage1_prompt(query, history)
+        logger.info(f"history for stage 1: {history}")
         try:
-            raw_output = run_inference_with_fallback(prompt, history)
+            # raw_output = run_inference_with_fallback(prompt, history)
+            raw_output = run_inference_with_fallback(prompt)
             logger.info(f"Stage 1 - Raw output: {raw_output}")
         except Exception as e:
             logger.error(f"Stage 1 inference failed: {e}")
@@ -135,11 +138,13 @@ class Agent:
         if not self.domain_classifier:
             return {"raw_output": "No domain classifier"}
 
-        prompt = self.domain_classifier.get_stage2_prompt(domain_name, query)
+        # prompt = self.domain_classifier.get_stage2_prompt(domain_name, query)
         history = self.memory.get_history_for_inference()
-
+        prompt = self.domain_classifier.get_stage2_prompt(domain_name, query, history)
+        logger.info(f"history for stage 2: {history}")
         try:
-            raw_output = run_inference_with_fallback(prompt, history)
+            # raw_output = run_inference_with_fallback(prompt, history)
+            raw_output = run_inference_with_fallback(prompt)
         except Exception as e:
             logger.error(f"Stage 2 inference failed: {e}")
             raw_output = ""
@@ -176,9 +181,10 @@ class Agent:
     def _format_response(self, intent_result: IntentResult, raw_output: str) -> str:
         """格式化最终响应"""
         if intent_result.intent == "NoiseAction":
-            return f"抱歉，我无法理解您的指令。原始输出: {raw_output}"
+            return f"格式解析失败或无法理解。原始输出: {raw_output}"
 
-        return f"已识别您的意图：{intent_result.intent}，ASR结果：{intent_result.asr_text}"
+        # return f"已识别您的意图：{intent_result.intent}，ASR结果：{intent_result.asr_text}"
+        return f"已识别您的意图：{intent_result.intent}"
 
     def handle_multi_intent(self, query: str) -> List[Dict[str, Any]]:
         """处理多意图复合指令"""
